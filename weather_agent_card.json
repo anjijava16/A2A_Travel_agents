@@ -1,0 +1,39 @@
+# http://localhost:9007/a2a/.well-known/agent-card.json
+
+{
+"capabilities": {
+"streaming": true
+},
+"defaultInputModes": [
+"text"
+],
+"defaultOutputModes": [
+"text"
+],
+"description": "Helpful agent that assists with weather forecasts, weather alerts, and time/date queries for US locations",
+"name": "Strands Agents",
+"preferredTransport": "JSONRPC",
+"protocolVersion": "0.3.0",
+"skills": [
+{
+"description": "Get weather alerts for a US state.\n\nArgs:\n    state: Two-letter US state code (e.g. CA, NY)\n",
+"id": "get_alerts",
+"name": "get_alerts",
+"tags": []
+},
+{
+"description": "Get weather forecast for a location.\n\nArgs:\n    location: Name of the location (city, address, etc.)\n",
+"id": "get_forecast",
+"name": "get_forecast",
+"tags": []
+},
+{
+"description": "Get the current time in ISO 8601 format.\n\nThis tool returns the current date and time in ISO 8601 format (e.g., 2023-04-15T14:32:16.123456+00:00)\nfor the specified timezone. If no timezone is provided, the value from the DEFAULT_TIMEZONE\nenvironment variable is used (defaults to 'UTC' if not set).\n\nArgs:\n    timezone (str, optional): The timezone to use (e.g., 'UTC', 'US/Pacific', 'Europe/London', 'Asia/Tokyo').\n        Defaults to environment variable DEFAULT_TIMEZONE ('UTC' if not set).\n\nReturns:\n    str: The current time in ISO 8601 format.\n\nRaises:\n    ValueError: If an invalid timezone is provided.\n\nExamples:\n    >>> current_time()  # Returns current time in default timezone (from DEFAULT_TIMEZONE or UTC)\n    '2023-04-15T14:32:16.123456+00:00'\n\n    >>> current_time(timezone=\"US/Pacific\")  # Returns current time in Pacific timezone\n    '2023-04-15T07:32:16.123456-07:00'",
+"id": "current_time",
+"name": "current_time",
+"tags": []
+}
+],
+"url": "http://localhost:9007/",
+"version": "0.0.1"
+}
