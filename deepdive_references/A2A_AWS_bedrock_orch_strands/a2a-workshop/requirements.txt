@@ -1,0 +1,39 @@
+# A2A Workshop - Python Dependencies
+#
+# Core Agent Framework
+strands-agents==1.15.0  # Latest version with NullConversationManager support
+a2a-sdk>=0.0.1
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Data Validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# AWS SDK
+boto3>=1.28.0
+botocore>=1.31.0
+
+# Configuration
+pyyaml>=6.0
+
+# HTTP Client (for agent-to-agent communication)
+aiohttp>=3.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.5.0
+pre-commit>=3.5.0
+
+# Type stubs for better type checking
+types-PyYAML>=6.0.0
+types-requests>=2.31.0
+boto3-stubs[essential]>=1.28.0

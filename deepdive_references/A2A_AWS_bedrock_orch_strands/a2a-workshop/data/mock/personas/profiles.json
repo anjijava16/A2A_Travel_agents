@@ -1,0 +1,17 @@
+{
+  "budget_traveler": {
+    "budget_per_day": 50,
+    "accommodation_preference": "budget",
+    "activity_preference": "free_and_low_cost"
+  },
+  "comfort_traveler": {
+    "budget_per_day": 200,
+    "accommodation_preference": "mid_range",
+    "activity_preference": "mix"
+  },
+  "luxury_traveler": {
+    "budget_per_day": 500,
+    "accommodation_preference": "luxury",
+    "activity_preference": "premium"
+  }
+}

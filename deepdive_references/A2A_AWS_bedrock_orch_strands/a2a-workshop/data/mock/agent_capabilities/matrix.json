@@ -1,0 +1,68 @@
+{
+  "weather-agent": {
+    "keywords": [
+      "weather",
+      "forecast",
+      "rain",
+      "temperature",
+      "climate"
+    ],
+    "confidence_threshold": 0.8,
+    "dependencies": []
+  },
+  "events-agent": {
+    "keywords": [
+      "events",
+      "activities",
+      "things to do",
+      "attractions"
+    ],
+    "confidence_threshold": 0.7,
+    "dependencies": [
+      "weather-agent"
+    ]
+  },
+  "restaurant-agent": {
+    "keywords": [
+      "food",
+      "dining",
+      "restaurants",
+      "eat"
+    ],
+    "confidence_threshold": 0.7,
+    "dependencies": []
+  },
+  "budget-agent": {
+    "keywords": [
+      "budget",
+      "cost",
+      "price",
+      "afford",
+      "cheap"
+    ],
+    "confidence_threshold": 0.8,
+    "dependencies": []
+  },
+  "transportation-agent": {
+    "keywords": [
+      "transport",
+      "getting around",
+      "metro",
+      "bus"
+    ],
+    "confidence_threshold": 0.7,
+    "dependencies": []
+  },
+  "accommodation-agent": {
+    "keywords": [
+      "hotel",
+      "stay",
+      "lodging",
+      "accommodation"
+    ],
+    "confidence_threshold": 0.7,
+    "dependencies": [
+      "budget-agent"
+    ]
+  }
+}

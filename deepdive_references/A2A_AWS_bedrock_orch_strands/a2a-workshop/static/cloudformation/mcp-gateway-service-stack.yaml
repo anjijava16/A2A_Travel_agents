@@ -1,0 +1,340 @@
+# Copyright 2025 Amazon.com and its affiliates; all rights reserved.
+# This file is Amazon Web Services Content and may not be duplicated or distributed without permission.
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'A2A Workshop - MCP Gateway Service (with ALB)'
+
+################################################################################
+# This template deploys the MCP Gateway ECS service with Application Load Balancer.
+#
+# The MCP Gateway is a Tier 2 platform service that:
+#   - Provides public HTTP API for external MCP clients
+#   - Routes requests to orchestrator via CloudMap
+#   - Exposed via internet-facing ALB
+#
+# Prerequisites:
+#   - mcp-gateway-resources-template.yaml must be deployed first (creates ECR + logs)
+#
+# Deployment: ./scripts/deploy-mcp-gateway.sh (Step 3)
+################################################################################
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: a2a
+    Description: Project name for resource naming (must match infrastructure stack)
+
+  Environment:
+    Type: String
+    Default: workshop
+    AllowedValues:
+      - workshop
+      - dev
+      - prod
+    Description: Environment name (must match infrastructure stack)
+
+  ContainerImage:
+    Type: String
+    Description: Docker image URI for MCP Gateway (leave blank to use default)
+    Default: ''
+
+  ContainerCpu:
+    Type: String
+    Default: '512'
+    AllowedValues: ['256', '512', '1024', '2048']
+    Description: CPU units for the container (256 = 0.25 vCPU)
+
+  ContainerMemory:
+    Type: String
+    Default: '1024'
+    AllowedValues: ['512', '1024', '2048', '4096']
+    Description: Memory for the container in MB
+
+  DesiredCount:
+    Type: Number
+    Default: 1
+    MinValue: 0
+    MaxValue: 3
+    Description: Desired number of tasks (0 = stopped)
+
+  GatewayPort:
+    Type: Number
+    Default: 8000
+    Description: Port the gateway listens on
+
+  AllowedCIDR:
+    Type: String
+    Default: '0.0.0.0/0'
+    Description: CIDR range allowed to access the MCP Gateway ALB (default is open to all, set to code-server IP/32 or VPC CIDR for restriction)
+    AllowedPattern: '^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\/([0-9]|[1-2][0-9]|3[0-2]))$'
+
+  LogLevel:
+    Type: String
+    Default: INFO
+    AllowedValues:
+      - DEBUG
+      - INFO
+      - WARNING
+      - ERROR
+    Description: Log level for the MCP Gateway service
+
+Conditions:
+  HasContainerImage: !Not [!Equals [!Ref ContainerImage, '']]
+
+Resources:
+  #############################################################################
+  # Application Load Balancer Security Group
+  #############################################################################
+
+  ALBSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupName: !Sub '${ProjectName}-${Environment}-mcp-alb-sg'
+      GroupDescription: Security group for MCP Gateway ALB
+      VpcId:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-vpc-id'
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 80
+          ToPort: 80
+          CidrIp: !Ref AllowedCIDR
+          Description: Allow HTTP from allowed CIDR
+        - IpProtocol: tcp
+          FromPort: 443
+          ToPort: 443
+          CidrIp: !Ref AllowedCIDR
+          Description: Allow HTTPS from allowed CIDR
+      Tags:
+        - Key: Name
+          Value: !Sub '${ProjectName}-${Environment}-mcp-alb-sg'
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+
+  #############################################################################
+  # Application Load Balancer
+  #############################################################################
+
+  LoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      Name: !Sub '${ProjectName}-mcp-gateway-alb'
+      Type: application
+      Scheme: internal
+      IpAddressType: ipv4
+      Subnets:
+        - Fn::ImportValue: !Sub '${ProjectName}-${Environment}-public-subnet-1-id'
+        - Fn::ImportValue: !Sub '${ProjectName}-${Environment}-public-subnet-2-id'
+      SecurityGroups:
+        - !Ref ALBSecurityGroup
+      Tags:
+        - Key: Name
+          Value: !Sub '${ProjectName}-mcp-gateway-alb'
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+
+  TargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      Name: !Sub '${ProjectName}-mcp-gateway-tg'
+      Port: !Ref GatewayPort
+      Protocol: HTTP
+      TargetType: ip
+      VpcId:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-vpc-id'
+      HealthCheckEnabled: true
+      HealthCheckPath: /health
+      HealthCheckProtocol: HTTP
+      HealthCheckIntervalSeconds: 90
+      HealthCheckTimeoutSeconds: 10
+      HealthyThresholdCount: 2
+      UnhealthyThresholdCount: 3
+      Matcher:
+        HttpCode: '200'
+      Tags:
+        - Key: Name
+          Value: !Sub '${ProjectName}-mcp-gateway-tg'
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+
+  LoadBalancerListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      LoadBalancerArn: !Ref LoadBalancer
+      Port: 80
+      Protocol: HTTP
+      DefaultActions:
+        - Type: forward
+          TargetGroupArn: !Ref TargetGroup
+
+  #############################################################################
+  # Security Group Ingress Rule
+  #############################################################################
+
+  # Allow ALB to reach ECS tasks on gateway port
+  ALBToECSIngress:
+    Type: AWS::EC2::SecurityGroupIngress
+    Properties:
+      GroupId:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-ecs-task-sg-id'
+      IpProtocol: tcp
+      FromPort: !Ref GatewayPort
+      ToPort: !Ref GatewayPort
+      SourceSecurityGroupId: !Ref ALBSecurityGroup
+      Description: Allow MCP Gateway ALB to reach ECS tasks
+
+  #############################################################################
+  # ECS Task Definition
+  #############################################################################
+
+  TaskDefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: !Sub '${ProjectName}-mcp-gateway'
+      NetworkMode: awsvpc
+      RequiresCompatibilities:
+        - FARGATE
+      Cpu: !Ref ContainerCpu
+      Memory: !Ref ContainerMemory
+      ExecutionRoleArn:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-ecs-execution-role-arn'
+      TaskRoleArn:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-ecs-task-role-arn'
+      ContainerDefinitions:
+        - Name: mcp-gateway
+          Image: !If
+            - HasContainerImage
+            - !Ref ContainerImage
+            - !Sub '${AWS::AccountId}.dkr.ecr.${AWS::Region}.amazonaws.com/${ProjectName}-${Environment}/mcp-gateway:latest'
+          Essential: true
+          PortMappings:
+            - ContainerPort: !Ref GatewayPort
+              Protocol: tcp
+          Environment:
+            - Name: GATEWAY_PORT
+              Value: !Ref GatewayPort
+            - Name: AWS_REGION
+              Value: !Ref AWS::Region
+            - Name: CLOUDMAP_NAMESPACE
+              Value:
+                Fn::ImportValue: !Sub '${ProjectName}-${Environment}-namespace-name'
+            - Name: CLOUDMAP_NAMESPACE_ID
+              Value:
+                Fn::ImportValue: !Sub '${ProjectName}-${Environment}-namespace-id'
+            - Name: PROJECT_NAME
+              Value: !Ref ProjectName
+            - Name: ENVIRONMENT
+              Value: !Ref Environment
+            - Name: LOG_LEVEL
+              Value: !Ref LogLevel
+          LogConfiguration:
+            LogDriver: awslogs
+            Options:
+              awslogs-group:
+                Fn::ImportValue: !Sub '${ProjectName}-${Environment}-mcp-gateway-log-group'
+              awslogs-region: !Ref AWS::Region
+              awslogs-stream-prefix: mcp-gateway
+          HealthCheck:
+            Command:
+              - CMD-SHELL
+              - !Sub 'curl -f http://localhost:${GatewayPort}/health || exit 1'
+            Interval: 90
+            Timeout: 10
+            Retries: 3
+            StartPeriod: 60
+      Tags:
+        - Key: Name
+          Value: mcp-gateway-task
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+
+  #############################################################################
+  # ECS Service
+  #############################################################################
+
+  ECSService:
+    Type: AWS::ECS::Service
+    DependsOn: LoadBalancerListener
+    Properties:
+      ServiceName: !Sub '${ProjectName}-mcp-gateway'
+      Cluster:
+        Fn::ImportValue: !Sub '${ProjectName}-${Environment}-cluster-name'
+      TaskDefinition: !Ref TaskDefinition
+      DesiredCount: !Ref DesiredCount
+      LaunchType: FARGATE
+      PlatformVersion: LATEST
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: ENABLED
+          Subnets:
+            - Fn::ImportValue: !Sub '${ProjectName}-${Environment}-public-subnet-1-id'
+            - Fn::ImportValue: !Sub '${ProjectName}-${Environment}-public-subnet-2-id'
+          SecurityGroups:
+            - Fn::ImportValue: !Sub '${ProjectName}-${Environment}-ecs-task-sg-id'
+      LoadBalancers:
+        - ContainerName: mcp-gateway
+          ContainerPort: !Ref GatewayPort
+          TargetGroupArn: !Ref TargetGroup
+      HealthCheckGracePeriodSeconds: 60
+      DeploymentConfiguration:
+        MaximumPercent: 200
+        MinimumHealthyPercent: 100
+        DeploymentCircuitBreaker:
+          Enable: true
+          Rollback: true
+      EnableECSManagedTags: true
+      PropagateTags: SERVICE
+      Tags:
+        - Key: Name
+          Value: mcp-gateway-service
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+
+#############################################################################
+# Outputs
+#############################################################################
+
+Outputs:
+  LoadBalancerDNS:
+    Description: ALB DNS name for MCP Gateway
+    Value: !GetAtt LoadBalancer.DNSName
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-dns'
+
+  GatewayURL:
+    Description: Full MCP Gateway URL
+    Value: !Sub 'http://${LoadBalancer.DNSName}/mcp'
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-url'
+
+  TargetGroupArn:
+    Description: Target group ARN
+    Value: !Ref TargetGroup
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-tg-arn'
+
+  ECSServiceName:
+    Description: ECS service name
+    Value: !GetAtt ECSService.Name
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-service-name'
+
+  ECSServiceArn:
+    Description: ECS service ARN
+    Value: !Ref ECSService
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-service-arn'
+
+  TaskDefinitionArn:
+    Description: Task definition ARN
+    Value: !Ref TaskDefinition
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-mcp-gateway-task-arn'

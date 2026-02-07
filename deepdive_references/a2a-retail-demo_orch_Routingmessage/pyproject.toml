@@ -1,0 +1,69 @@
+# code-agent-gemini/pyproject.toml
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = [
+    ".venv",
+    "frontend", 
+    "scripts"
+]
+
+[tool.ruff.lint]
+ignore = ["E402", "E501", "I001", "D203", "D213", "D100", "D104", "D107"]
+select = ["E", "F", "I", "UP", "A"]
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | frontend/node_modules
+)/
+'''
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning"
+]
+
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ['.']
+include = ['backend', 'backend.*', 'frontend', 'frontend.*']
+exclude = ['logs', 'data']
+
+[project]
+name = "a2a-retail-demo"
+version = "0.1.0"
+description = "A demonstration of Google's A2A protocol with ADK and LangGraph agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "A2A Demo Team", email = "demo@example.com" },
+]
+keywords = ["a2a", "agents", "ai", "llm", "gemini", "adk", "langgraph"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]

@@ -1,0 +1,210 @@
+# Copyright 2025 Amazon.com and its affiliates; all rights reserved.
+# This file is Amazon Web Services Content and may not be duplicated or distributed without permission.
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'A2A Workshop - Agent Resources Template (ECR + Logs)'
+
+################################################################################
+# This template creates persistent storage resources for any agent:
+#   - ECR repository for Docker images
+#   - CloudWatch log group for application logs
+#
+# These resources persist independently of the service deployment, allowing
+# images and logs to be retained even when the service stack is torn down.
+#
+# Deployed via: ./scripts/deploy-agent.sh <agent-name> (Step 1)
+################################################################################
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: a2a
+    Description: Project name for resource naming
+
+  Environment:
+    Type: String
+    Default: workshop
+    AllowedValues:
+      - workshop
+      - dev
+      - prod
+    Description: Environment name
+
+  AgentName:
+    Type: String
+    Description: Agent name (e.g., weather-agent, events-agent, restaurant-agent)
+    AllowedPattern: '[a-z][a-z0-9-]*'
+    ConstraintDescription: Must be lowercase letters, numbers, and hyphens only
+
+Resources:
+  #############################################################################
+  # ECR Cleanup Lambda (empties repo on stack deletion)
+  #############################################################################
+
+  ECRCleanupRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: ECRCleanupPolicy
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Effect: Allow
+                Action:
+                  - ecr:ListImages
+                  - ecr:BatchDeleteImage
+                Resource: !Sub 'arn:aws:ecr:${AWS::Region}:${AWS::AccountId}:repository/${ProjectName}-${Environment}/${AgentName}'
+
+  ECRCleanupFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: !Sub '${ProjectName}-${Environment}-${AgentName}-ecr-cleanup'
+      Runtime: python3.11
+      Handler: index.handler
+      Role: !GetAtt ECRCleanupRole.Arn
+      Timeout: 300
+      Code:
+        ZipFile: |
+          import boto3
+          import cfnresponse
+          import logging
+
+          logger = logging.getLogger()
+          logger.setLevel(logging.INFO)
+
+          def handler(event, context):
+              logger.info(f"Event: {event}")
+
+              response_data = {}
+
+              try:
+                  if event['RequestType'] == 'Delete':
+                      ecr = boto3.client('ecr')
+                      repo_name = event['ResourceProperties']['RepositoryName']
+
+                      logger.info(f"Cleaning up ECR repository: {repo_name}")
+
+                      try:
+                          # List all images
+                          response = ecr.list_images(repositoryName=repo_name)
+                          image_ids = response.get('imageIds', [])
+
+                          if image_ids:
+                              logger.info(f"Found {len(image_ids)} images to delete")
+                              # Delete all images
+                              ecr.batch_delete_image(
+                                  repositoryName=repo_name,
+                                  imageIds=image_ids
+                              )
+                              logger.info(f"Successfully deleted {len(image_ids)} images")
+                          else:
+                              logger.info("No images found in repository")
+
+                      except ecr.exceptions.RepositoryNotFoundException:
+                          logger.info(f"Repository {repo_name} not found - already deleted")
+                      except Exception as e:
+                          logger.error(f"Error cleaning up ECR: {e}")
+                          # Don't fail the stack deletion if cleanup fails
+
+                  cfnresponse.send(event, context, cfnresponse.SUCCESS, response_data)
+
+              except Exception as e:
+                  logger.error(f"Error: {e}")
+                  cfnresponse.send(event, context, cfnresponse.SUCCESS, response_data)
+
+  #############################################################################
+  # ECR Repository
+  #############################################################################
+
+  ECRRepository:
+    Type: AWS::ECR::Repository
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      RepositoryName: !Sub '${ProjectName}-${Environment}/${AgentName}'
+      ImageScanningConfiguration:
+        ScanOnPush: true
+      LifecyclePolicy:
+        LifecyclePolicyText: |
+          {
+            "rules": [
+              {
+                "rulePriority": 1,
+                "description": "Keep last 10 images",
+                "selection": {
+                  "tagStatus": "any",
+                  "countType": "imageCountMoreThan",
+                  "countNumber": 10
+                },
+                "action": {
+                  "type": "expire"
+                }
+              }
+            ]
+          }
+      Tags:
+        - Key: Name
+          Value: !Sub '${AgentName}-repository'
+        - Key: Project
+          Value: !Ref ProjectName
+        - Key: Environment
+          Value: !Ref Environment
+        - Key: Agent
+          Value: !Ref AgentName
+
+  # Custom resource to trigger ECR cleanup on stack deletion
+  ECRCleanup:
+    Type: Custom::ECRCleanup
+    DependsOn: ECRRepository
+    Properties:
+      ServiceToken: !GetAtt ECRCleanupFunction.Arn
+      RepositoryName: !Sub '${ProjectName}-${Environment}/${AgentName}'
+
+  #############################################################################
+  # CloudWatch Log Group
+  #############################################################################
+
+  LogGroup:
+    Type: AWS::Logs::LogGroup
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      LogGroupName: !Sub '/ecs/${ProjectName}-${Environment}/${AgentName}'
+      RetentionInDays: 7
+
+#############################################################################
+# Outputs
+#############################################################################
+
+Outputs:
+  ECRRepositoryUri:
+    Description: Agent ECR repository URI
+    Value: !GetAtt ECRRepository.RepositoryUri
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-${AgentName}-repo-uri'
+
+  ECRRepositoryName:
+    Description: Agent ECR repository name
+    Value: !Ref ECRRepository
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-${AgentName}-repo-name'
+
+  LogGroupName:
+    Description: CloudWatch log group name
+    Value: !Ref LogGroup
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-${AgentName}-log-group'
+
+  LogGroupArn:
+    Description: CloudWatch log group ARN
+    Value: !GetAtt LogGroup.Arn
+    Export:
+      Name: !Sub '${ProjectName}-${Environment}-${AgentName}-log-group-arn'

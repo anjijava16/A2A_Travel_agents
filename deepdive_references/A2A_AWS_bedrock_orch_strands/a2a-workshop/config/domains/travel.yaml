@@ -1,0 +1,120 @@
+# Travel Domain Configuration
+#
+# This configuration defines agents for the travel planning domain.
+# Agents provide weather forecasts, event recommendations, restaurant suggestions,
+# and budget analysis for travel destinations.
+
+name: travel
+description: Travel planning and recommendation domain
+
+shared_config:
+  # Shared across all travel agents
+  default_location: Seattle
+  default_date_range: 3  # days
+  mock_data_enabled: true  # Use mock data for reliability
+
+agents:
+  weather:
+    class_name: WeatherAgent
+    description: Provides weather forecasts and indoor/outdoor activity recommendations
+    capabilities:
+      - get-weather
+      - get-forecast
+    data_sources:
+      - type: mock  # mock | openweathermap
+        config:
+          data_file: data/mock/weather/locations.json
+          api_key: ${OPENWEATHER_API_KEY}  # Optional, for real API
+    config:
+      forecast_days: 3
+      include_indoor_recommendation: true
+
+  location_loader:
+    class_name: LocationLoaderAgent
+    description: Pure data loading agent - returns complete unfiltered datasets for cities
+    capabilities:
+      - load-locations
+    data_sources:
+      - type: mock
+        config:
+          data_dir: data/mock/
+    config:
+      # No max_results - returns ALL data
+      # This agent demonstrates single responsibility principle
+      # Separation: loading (this agent) vs filtering (geography) vs refinement (events/restaurants)
+      return_all_data: true
+
+  events:
+    class_name: EventsAgent
+    description: Suggests local events, activities, and attractions
+    capabilities:
+      - find-events
+      - get-event-details
+    data_sources:
+      - type: mock  # mock | ticketmaster | eventbrite
+        config:
+          data_file: data/mock/events/locations.json
+          api_key: ${TICKETMASTER_API_KEY}  # Optional
+    config:
+      max_results: 100
+      include_outdoor: true
+      include_indoor: true
+
+  restaurants:
+    class_name: RestaurantAgent
+    description: Recommends restaurants and dining options
+    capabilities:
+      - find-restaurants
+      - get-reviews
+    data_sources:
+      - type: mock  # mock | yelp | google_places
+        config:
+          data_file: data/mock/restaurants/locations.json
+          api_key: ${YELP_API_KEY}  # Optional
+    config:
+      max_results: 100
+      include_ratings: true
+      cuisine_types: all
+
+  geography:
+    class_name: GeographyAgent
+    description: Provides location-based services including distance calculation and proximity filtering
+    capabilities:
+      - calculate-distance
+      - filter-by-proximity
+      - get-coordinates
+    data_sources:
+      - type: mock  # Uses coordinates from other agents' data files
+        config:
+          data_file: data/mock/restaurants/locations.json  # Reads coordinates from all location data
+    config:
+      default_radius_km: 2.0
+      max_radius_km: 50.0
+      service_type: enhancement  # Enhancement service, not primary user-facing
+
+  budget:
+    class_name: BudgetAnalyzerAgent
+    description: Analyzes travel costs and provides budget-aware recommendations
+    capabilities:
+      - analyze-costs
+      - filter-by-budget
+    data_sources:
+      - type: mock  # mock | numbeo
+        config:
+          data_file: data/mock/budget/costs.json
+    config:
+      default_budget_range: moderate
+      currency: USD
+
+  orchestrator:
+    class_name: TravelOrchestratorAgent
+    description: Coordinates multiple agents to provide comprehensive travel recommendations
+    capabilities:
+      - coordinate-agents
+      - synthesize-recommendations
+    data_sources: []  # Uses other agents via A2A protocol
+    config:
+      max_parallel_agents: 4
+      timeout_seconds: 180
+      # REMOVED: weather_aware_filtering (domain-specific, Phase 1)
+      # Domain-agnostic orchestrator now uses LLM-based synthesis for all intelligence

@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "a2a-workshop"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__a2a-workshop__ask_workshop"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "Seattle": {
+    "city": "Seattle",
+    "date": "2024-10-15",
+    "condition": "Heavy Rain",
+    "temperature": 52,
+    "precipitation_chance": 95,
+    "humidity": 90,
+    "description": "Continuous heavy rain expected all day. Not suitable for outdoor activities.",
+    "indoor_recommended": true,
+    "forecast": [
+      {
+        "date": "2024-10-15",
+        "condition": "Heavy Rain",
+        "high": 54,
+        "low": 48,
+        "precipitation_chance": 95
+      },
+      {
+        "date": "2024-10-16",
+        "condition": "Rain",
+        "high": 56,
+        "low": 50,
+        "precipitation_chance": 80
+      },
+      {
+        "date": "2024-10-17",
+        "condition": "Partly Cloudy",
+        "high": 60,
+        "low": 52,
+        "precipitation_chance": 30
+      }
+    ]
+  },
+  "Portland": {
+    "city": "Portland",
+    "condition": "Rain",
+    "temperature": 55,
+    "precipitation_chance": 85,
+    "indoor_recommended": true
+  },
+  "San Francisco": {
+    "city": "San Francisco",
+    "condition": "Sunny",
+    "temperature": 68,
+    "precipitation_chance": 10,
+    "indoor_recommended": false
+  },
+  "Las Vegas": {
+    "city": "Las Vegas",
+    "date": "2024-10-15",
+    "condition": "Sunny",
+    "temperature": 85,
+    "precipitation_chance": 5,
+    "humidity": 20,
+    "description": "Clear skies and hot temperatures. Perfect for outdoor activities with sun protection.",
+    "indoor_recommended": false,
+    "forecast": [
+      {
+        "date": "2024-10-15",
+        "condition": "Sunny",
+        "high": 88,
+        "low": 65,
+        "precipitation_chance": 5
+      },
+      {
+        "date": "2024-10-16",
+        "condition": "Sunny",
+        "high": 90,
+        "low": 67,
+        "precipitation_chance": 0
+      },
+      {
+        "date": "2024-10-17",
+        "condition": "Partly Cloudy",
+        "high": 86,
+        "low": 64,
+        "precipitation_chance": 10
+      }
+    ]
+  },
+  "New York": {
+    "city": "New York",
+    "date": "2024-10-15",
+    "condition": "Partly Cloudy",
+    "temperature": 58,
+    "precipitation_chance": 35,
+    "humidity": 65,
+    "description": "Cool autumn weather with occasional clouds. Good for both indoor and outdoor activities with light jacket recommended.",
+    "indoor_recommended": false,
+    "forecast": [
+      {
+        "date": "2024-10-15",
+        "condition": "Partly Cloudy",
+        "high": 62,
+        "low": 52,
+        "precipitation_chance": 35
+      },
+      {
+        "date": "2024-10-16",
+        "condition": "Cloudy",
+        "high": 60,
+        "low": 50,
+        "precipitation_chance": 45
+      },
+      {
+        "date": "2024-10-17",
+        "condition": "Light Rain",
+        "high": 58,
+        "low": 48,
+        "precipitation_chance": 60
+      }
+    ]
+  },
+  "Austin": {
+    "city": "Austin",
+    "date": "2024-10-15",
+    "condition": "Sunny",
+    "temperature": 78,
+    "precipitation_chance": 15,
+    "humidity": 45,
+    "description": "Warm and pleasant Texas weather. Excellent for outdoor activities and team building events.",
+    "indoor_recommended": false,
+    "forecast": [
+      {
+        "date": "2024-10-15",
+        "condition": "Sunny",
+        "high": 82,
+        "low": 68,
+        "precipitation_chance": 15
+      },
+      {
+        "date": "2024-10-16",
+        "condition": "Partly Cloudy",
+        "high": 80,
+        "low": 66,
+        "precipitation_chance": 20
+      },
+      {
+        "date": "2024-10-17",
+        "condition": "Sunny",
+        "high": 84,
+        "low": 70,
+        "precipitation_chance": 10
+      }
+    ]
+  }
+}

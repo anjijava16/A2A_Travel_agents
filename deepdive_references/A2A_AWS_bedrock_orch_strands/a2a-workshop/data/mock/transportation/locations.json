@@ -1,0 +1,2177 @@
+{
+  "Seattle": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "King County Metro"
+      ],
+      "types": [
+        "bus",
+        "ferry",
+        "tram"
+      ],
+      "route_count": 143,
+      "stop_count": 100,
+      "major_routes": [
+        {
+          "name": "1",
+          "type": "bus"
+        },
+        {
+          "name": "10",
+          "type": "bus"
+        },
+        {
+          "name": "101",
+          "type": "bus"
+        },
+        {
+          "name": "105",
+          "type": "bus"
+        },
+        {
+          "name": "106",
+          "type": "bus"
+        },
+        {
+          "name": "107",
+          "type": "bus"
+        },
+        {
+          "name": "11",
+          "type": "bus"
+        },
+        {
+          "name": "111",
+          "type": "bus"
+        },
+        {
+          "name": "113",
+          "type": "bus"
+        },
+        {
+          "name": "118",
+          "type": "bus"
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "100",
+          "stop_name": "1st Ave & Spring St",
+          "latitude": 47.6051369,
+          "longitude": -122.336533,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10005",
+          "stop_name": "40th Ave NE & NE 51st St",
+          "latitude": 47.6658859,
+          "longitude": -122.284897,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10010",
+          "stop_name": "NE 55th St & 39th Ave NE",
+          "latitude": 47.6685791,
+          "longitude": -122.285667,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10020",
+          "stop_name": "NE 55th St & 37th Ave NE",
+          "latitude": 47.6685791,
+          "longitude": -122.2883,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10030",
+          "stop_name": "NE 55th St & 35th Ave NE",
+          "latitude": 47.6685791,
+          "longitude": -122.290512,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10040",
+          "stop_name": "NE 55th St & 33rd Ave NE",
+          "latitude": 47.6685829,
+          "longitude": -122.293015,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10050",
+          "stop_name": "NE 55th St & 30th Ave NE",
+          "latitude": 47.6685905,
+          "longitude": -122.295448,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10060",
+          "stop_name": "NE 55th St & 27th Ave NE",
+          "latitude": 47.6685944,
+          "longitude": -122.298859,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10070",
+          "stop_name": "NE 55th St & 25th Ave NE",
+          "latitude": 47.6685944,
+          "longitude": -122.30098,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10083",
+          "stop_name": "Ravenna Ave NE & Ravenna Pl NE",
+          "latitude": 47.6684799,
+          "longitude": -122.30378,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "101",
+          "stop_name": "Spring St & 3rd Ave",
+          "latitude": 47.6061363,
+          "longitude": -122.334969,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "1010",
+          "stop_name": "Howell St & Minor Ave",
+          "latitude": 47.6167107,
+          "longitude": -122.330597,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10100",
+          "stop_name": "NE Ravenna Blvd & Park Rd NE",
+          "latitude": 47.6695518,
+          "longitude": -122.305405,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10110",
+          "stop_name": "20th Ave NE & NE 55th St",
+          "latitude": 47.6682739,
+          "longitude": -122.30658,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10120",
+          "stop_name": "20th Ave NE & NE 52nd St",
+          "latitude": 47.6662827,
+          "longitude": -122.306602,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10130",
+          "stop_name": "NE 50th St & 19th Ave NE",
+          "latitude": 47.6649284,
+          "longitude": -122.307114,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10145",
+          "stop_name": "NE 50th St & 16th Ave NE",
+          "latitude": 47.664959,
+          "longitude": -122.311172,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10170",
+          "stop_name": "Fairview Ave E & E Nelson Pl",
+          "latitude": 47.6300545,
+          "longitude": -122.329338,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10180",
+          "stop_name": "Fairview Ave N & Yale Ave N",
+          "latitude": 47.6283493,
+          "longitude": -122.33152,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10190",
+          "stop_name": "Fairview Ave N & Aloha St",
+          "latitude": 47.6270752,
+          "longitude": -122.333122,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "102",
+          "stop_name": "Spring St & 4th Ave",
+          "latitude": 47.6069107,
+          "longitude": -122.333092,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10210",
+          "stop_name": "Fairview Ave N & Mercer St",
+          "latitude": 47.6235619,
+          "longitude": -122.33445,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10225",
+          "stop_name": "Fairview Ave N & Thomas St",
+          "latitude": 47.6205864,
+          "longitude": -122.334435,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10240",
+          "stop_name": "Boren Ave & Virginia St",
+          "latitude": 47.6175003,
+          "longitude": -122.333817,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10280",
+          "stop_name": "Fairview Ave & Denny Way",
+          "latitude": 47.6188736,
+          "longitude": -122.334198,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "103",
+          "stop_name": "Spring St & 8th Ave",
+          "latitude": 47.6085281,
+          "longitude": -122.329239,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10305",
+          "stop_name": "Fairview Ave N & Harrison St",
+          "latitude": 47.6222763,
+          "longitude": -122.334229,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10325",
+          "stop_name": "Fairview Ave N & Valley St",
+          "latitude": 47.6266136,
+          "longitude": -122.33345,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10328",
+          "stop_name": "Valley St & Fairview Ave N",
+          "latitude": 47.6260338,
+          "longitude": -122.334106,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10340",
+          "stop_name": "Fairview Ave N & Yale Ave N",
+          "latitude": 47.6288757,
+          "longitude": -122.330597,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10350",
+          "stop_name": "Fairview Ave E & Yale Ave N",
+          "latitude": 47.6299744,
+          "longitude": -122.329185,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10370",
+          "stop_name": "NE 50th St & University Way NE",
+          "latitude": 47.6648293,
+          "longitude": -122.31266,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10380",
+          "stop_name": "NE 50th St & 16th Ave NE",
+          "latitude": 47.664814,
+          "longitude": -122.310432,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "104",
+          "stop_name": "Madison St & Terry Ave",
+          "latitude": 47.6089478,
+          "longitude": -122.325897,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "1040",
+          "stop_name": "Olive Way & 6th Ave",
+          "latitude": 47.6130257,
+          "longitude": -122.336334,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10400",
+          "stop_name": "20th Ave NE & NE 50th St",
+          "latitude": 47.6650276,
+          "longitude": -122.306404,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10410",
+          "stop_name": "20th Ave NE & NE 52nd St",
+          "latitude": 47.6666412,
+          "longitude": -122.306404,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10420",
+          "stop_name": "20th Ave NE & NE 54th St",
+          "latitude": 47.6681633,
+          "longitude": -122.306389,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10430",
+          "stop_name": "NE Ravenna Blvd & 21st Ave NE",
+          "latitude": 47.669239,
+          "longitude": -122.305595,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10445",
+          "stop_name": "Ravenna Ave NE & NE 54th St",
+          "latitude": 47.6680031,
+          "longitude": -122.303864,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10460",
+          "stop_name": "NE 55th St & 25th Ave NE",
+          "latitude": 47.6684494,
+          "longitude": -122.300217,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10470",
+          "stop_name": "NE 55th St & 27th Ave NE",
+          "latitude": 47.6684494,
+          "longitude": -122.298218,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10480",
+          "stop_name": "NE 55th St & 30th Ave NE",
+          "latitude": 47.6684494,
+          "longitude": -122.295074,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10490",
+          "stop_name": "NE 55th St & 33rd Ave NE",
+          "latitude": 47.6684494,
+          "longitude": -122.29232,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "105",
+          "stop_name": "Madison St & Boylston Ave",
+          "latitude": 47.6103554,
+          "longitude": -122.322517,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "1050",
+          "stop_name": "Olive Way & 8th Ave",
+          "latitude": 47.6139374,
+          "longitude": -122.33416,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10500",
+          "stop_name": "NE 55th St & 35th Ave NE",
+          "latitude": 47.6684456,
+          "longitude": -122.29039,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10510",
+          "stop_name": "NE 55th St & 36th Ave NE",
+          "latitude": 47.6684456,
+          "longitude": -122.288803,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10513",
+          "stop_name": "40th Ave NE & NE 46th St",
+          "latitude": 47.6619339,
+          "longitude": -122.284668,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10515",
+          "stop_name": "40th Ave NE & NE 50th St",
+          "latitude": 47.6650925,
+          "longitude": -122.284698,
+          "wheelchair_accessible": true
+        }
+      ],
+      "accessibility": "wheelchair_accessible"
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:41:43.187255"
+  },
+  "Portland": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "TriMet"
+      ],
+      "types": [
+        "aerial_lift",
+        "bus",
+        "rail",
+        "tram"
+      ],
+      "route_count": 91,
+      "stop_count": 100,
+      "major_routes": [
+        {
+          "name": "1",
+          "type": "bus"
+        },
+        {
+          "name": "FX2",
+          "type": "bus"
+        },
+        {
+          "name": "4",
+          "type": "bus"
+        },
+        {
+          "name": "6",
+          "type": "bus"
+        },
+        {
+          "name": "8",
+          "type": "bus"
+        },
+        {
+          "name": "9",
+          "type": "bus"
+        },
+        {
+          "name": "10",
+          "type": "bus"
+        },
+        {
+          "name": "11",
+          "type": "bus"
+        },
+        {
+          "name": "12",
+          "type": "bus"
+        },
+        {
+          "name": "MAX Red Line Shuttle",
+          "type": "bus"
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "2",
+          "stop_name": "A Ave & Chandler",
+          "latitude": 45.420609,
+          "longitude": -122.675671,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "3",
+          "stop_name": "A Ave & Second St",
+          "latitude": 45.419388,
+          "longitude": -122.665197,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "4",
+          "stop_name": "A Ave & 10th St",
+          "latitude": 45.420703,
+          "longitude": -122.675152,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "6",
+          "stop_name": "A Ave & 8th St",
+          "latitude": 45.420217,
+          "longitude": -122.67307,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "7",
+          "stop_name": "A Ave & 8th St",
+          "latitude": 45.420411,
+          "longitude": -122.67268,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "8",
+          "stop_name": "900 Block Abernethy",
+          "latitude": 45.363509,
+          "longitude": -122.593886,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "9",
+          "stop_name": "Abernethy & Barclay",
+          "latitude": 45.384645,
+          "longitude": -122.602873,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10",
+          "stop_name": "Abernethy & Barclay",
+          "latitude": 45.38472,
+          "longitude": -122.60319,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11",
+          "stop_name": "Abernethy & Beatrice",
+          "latitude": 45.384046,
+          "longitude": -122.601099,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "12",
+          "stop_name": "Abernethy & Center",
+          "latitude": 45.38414,
+          "longitude": -122.601137,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13",
+          "stop_name": "Abernethy & Duniway",
+          "latitude": 45.385893,
+          "longitude": -122.604724,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14",
+          "stop_name": "Abernethy & Duniway",
+          "latitude": 45.385908,
+          "longitude": -122.604963,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "16",
+          "stop_name": "Abernethy & Portland Ave",
+          "latitude": 45.384222,
+          "longitude": -122.598181,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "17",
+          "stop_name": "Abernethy & Portland Ave",
+          "latitude": 45.384203,
+          "longitude": -122.597396,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "20",
+          "stop_name": "2800 Block NE 92nd",
+          "latitude": 45.54267,
+          "longitude": -122.569774,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "21",
+          "stop_name": "2800 Block NE 92nd",
+          "latitude": 45.543152,
+          "longitude": -122.570032,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "26",
+          "stop_name": "NE 92nd & Hill",
+          "latitude": 45.545655,
+          "longitude": -122.570035,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "28",
+          "stop_name": "2200 Block Baseline",
+          "latitude": 45.520284,
+          "longitude": -123.044484,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "30",
+          "stop_name": "N Adair & 10th",
+          "latitude": 45.520994,
+          "longitude": -123.059167,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "31",
+          "stop_name": "N Adair & 12th",
+          "latitude": 45.52097,
+          "longitude": -123.056836,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "32",
+          "stop_name": "N Adair & 14th",
+          "latitude": 45.520985,
+          "longitude": -123.054208,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "33",
+          "stop_name": "N Adair & 17th",
+          "latitude": 45.520981,
+          "longitude": -123.051781,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "34",
+          "stop_name": "N Adair & 20th",
+          "latitude": 45.52046,
+          "longitude": -123.047696,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "35",
+          "stop_name": "N Adair & 4th",
+          "latitude": 45.521026,
+          "longitude": -123.067234,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "40",
+          "stop_name": "N Trenton & Alaska",
+          "latitude": 45.588584,
+          "longitude": -122.711677,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "41",
+          "stop_name": "N Alaska & Chautauqua",
+          "latitude": 45.587746,
+          "longitude": -122.705606,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "42",
+          "stop_name": "N Alaska & Chautauqua Pl",
+          "latitude": 45.587769,
+          "longitude": -122.707831,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "43",
+          "stop_name": "N Alaska & Chautauqua Pl",
+          "latitude": 45.587877,
+          "longitude": -122.707734,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "44",
+          "stop_name": "N Alaska & Foss",
+          "latitude": 45.58777,
+          "longitude": -122.71025,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "45",
+          "stop_name": "N Alaska & University Park",
+          "latitude": 45.587885,
+          "longitude": -122.710217,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "46",
+          "stop_name": "NE Alberta & M L King",
+          "latitude": 45.559061,
+          "longitude": -122.661064,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "48",
+          "stop_name": "NE Alberta & 11th",
+          "latitude": 45.559046,
+          "longitude": -122.654736,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "49",
+          "stop_name": "NE Alberta & 11th",
+          "latitude": 45.559165,
+          "longitude": -122.654485,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "50",
+          "stop_name": "NE Alberta & 13th",
+          "latitude": 45.559046,
+          "longitude": -122.652745,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "51",
+          "stop_name": "NE Alberta & 13th",
+          "latitude": 45.559153,
+          "longitude": -122.652531,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "52",
+          "stop_name": "NE Alberta & 15th",
+          "latitude": 45.559032,
+          "longitude": -122.649877,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "53",
+          "stop_name": "NE Alberta & 15th",
+          "latitude": 45.559157,
+          "longitude": -122.649524,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "54",
+          "stop_name": "NE Alberta & 18th",
+          "latitude": 45.559041,
+          "longitude": -122.646899,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "55",
+          "stop_name": "NE Alberta & 18th",
+          "latitude": 45.55912,
+          "longitude": -122.64668,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "60",
+          "stop_name": "NE Alberta & 24th",
+          "latitude": 45.559009,
+          "longitude": -122.641042,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "61",
+          "stop_name": "NE Alberta & 24th",
+          "latitude": 45.559117,
+          "longitude": -122.640805,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "63",
+          "stop_name": "NE Alberta & 27th",
+          "latitude": 45.559,
+          "longitude": -122.637997,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "64",
+          "stop_name": "NE Alberta & 27th",
+          "latitude": 45.559091,
+          "longitude": -122.637779,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "67",
+          "stop_name": "SE Alberta & 70th",
+          "latitude": 45.45854,
+          "longitude": -122.592013,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "68",
+          "stop_name": "SE Alberta & 70th",
+          "latitude": 45.458637,
+          "longitude": -122.591826,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "69",
+          "stop_name": "NE Alberta & 9th",
+          "latitude": 45.559067,
+          "longitude": -122.65667,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "70",
+          "stop_name": "NE Alberta & 9th",
+          "latitude": 45.559153,
+          "longitude": -122.656451,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "71",
+          "stop_name": "N Albina & Ainsworth",
+          "latitude": 45.566631,
+          "longitude": -122.674812,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "72",
+          "stop_name": "N Albina & Ainsworth",
+          "latitude": 45.566134,
+          "longitude": -122.675001,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "73",
+          "stop_name": "N Albina & Alberta",
+          "latitude": 45.558897,
+          "longitude": -122.674919,
+          "wheelchair_accessible": true
+        }
+      ],
+      "accessibility": "wheelchair_accessible"
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:41:43.572211"
+  },
+  "San Francisco": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "BART"
+      ],
+      "types": [
+        "bus",
+        "subway"
+      ],
+      "route_count": 14,
+      "stop_count": 100,
+      "major_routes": [
+        {
+          "name": "Yellow-S",
+          "type": "subway"
+        },
+        {
+          "name": "Yellow-N",
+          "type": "subway"
+        },
+        {
+          "name": "Orange-N",
+          "type": "subway"
+        },
+        {
+          "name": "Orange-S",
+          "type": "subway"
+        },
+        {
+          "name": "Green-S",
+          "type": "subway"
+        },
+        {
+          "name": "Green-N",
+          "type": "subway"
+        },
+        {
+          "name": "Red-S",
+          "type": "subway"
+        },
+        {
+          "name": "Red-N",
+          "type": "subway"
+        },
+        {
+          "name": "Blue-S",
+          "type": "subway"
+        },
+        {
+          "name": "Blue-N",
+          "type": "subway"
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "A10-1",
+          "stop_name": "Lake Merritt",
+          "latitude": 37.797296,
+          "longitude": -122.265287,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A10-2",
+          "stop_name": "Lake Merritt",
+          "latitude": 37.797357,
+          "longitude": -122.265232,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A20-1",
+          "stop_name": "Fruitvale",
+          "latitude": 37.774818,
+          "longitude": -122.224121,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A20-2",
+          "stop_name": "Fruitvale",
+          "latitude": 37.774873,
+          "longitude": -122.224067,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A30-1",
+          "stop_name": "Coliseum",
+          "latitude": 37.753558,
+          "longitude": -122.19676,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A30-2",
+          "stop_name": "Coliseum",
+          "latitude": 37.753604,
+          "longitude": -122.196698,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "H10",
+          "stop_name": "Coliseum - OAC",
+          "latitude": 37.752225,
+          "longitude": -122.19627,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A40-1",
+          "stop_name": "San Leandro",
+          "latitude": 37.721773,
+          "longitude": -122.160792,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A40-2",
+          "stop_name": "San Leandro",
+          "latitude": 37.721806,
+          "longitude": -122.160713,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A50-1",
+          "stop_name": "Bay Fair",
+          "latitude": 37.696887,
+          "longitude": -122.126488,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A50-2",
+          "stop_name": "Bay Fair",
+          "latitude": 37.696938,
+          "longitude": -122.126431,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A60-1",
+          "stop_name": "Hayward",
+          "latitude": 37.669678,
+          "longitude": -122.087,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A60-2",
+          "stop_name": "Hayward",
+          "latitude": 37.669731,
+          "longitude": -122.086941,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A70-1",
+          "stop_name": "South Hayward",
+          "latitude": 37.634328,
+          "longitude": -122.057233,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A70-2",
+          "stop_name": "South Hayward",
+          "latitude": 37.634363,
+          "longitude": -122.057158,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A80-1",
+          "stop_name": "Union City",
+          "latitude": 37.590714,
+          "longitude": -122.017292,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A80-2",
+          "stop_name": "Union City",
+          "latitude": 37.590765,
+          "longitude": -122.01723,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A90-1",
+          "stop_name": "Fremont",
+          "latitude": 37.557459,
+          "longitude": -121.976658,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "A90-2",
+          "stop_name": "Fremont",
+          "latitude": 37.557513,
+          "longitude": -121.976605,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C10-1",
+          "stop_name": "Rockridge",
+          "latitude": 37.844725,
+          "longitude": -122.251225,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C10-2",
+          "stop_name": "Rockridge",
+          "latitude": 37.844795,
+          "longitude": -122.251271,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C20-1",
+          "stop_name": "Orinda",
+          "latitude": 37.87847,
+          "longitude": -122.183643,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C20-2",
+          "stop_name": "Orinda",
+          "latitude": 37.878503,
+          "longitude": -122.183717,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C30-1",
+          "stop_name": "Lafayette",
+          "latitude": 37.893155,
+          "longitude": -122.124621,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C30-2",
+          "stop_name": "Lafayette",
+          "latitude": 37.89322,
+          "longitude": -122.124644,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C40-1",
+          "stop_name": "Walnut Creek",
+          "latitude": 37.90578,
+          "longitude": -122.067302,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C40-2",
+          "stop_name": "Walnut Creek",
+          "latitude": 37.905812,
+          "longitude": -122.067379,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C50-1",
+          "stop_name": "Pleasant Hill / Contra Costa Centre",
+          "latitude": 37.928414,
+          "longitude": -122.055954,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C50-2",
+          "stop_name": "Pleasant Hill / Contra Costa Centre",
+          "latitude": 37.928463,
+          "longitude": -122.056015,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C60-1",
+          "stop_name": "Concord",
+          "latitude": 37.973751,
+          "longitude": -122.029046,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C60-2",
+          "stop_name": "Concord",
+          "latitude": 37.973773,
+          "longitude": -122.029126,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C70-1",
+          "stop_name": "North Concord / Martinez",
+          "latitude": 38.003369,
+          "longitude": -122.02449,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C70-2",
+          "stop_name": "North Concord / Martinez",
+          "latitude": 38.003407,
+          "longitude": -122.024561,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C80-1",
+          "stop_name": "Pittsburg / Bay Point",
+          "latitude": 38.018881,
+          "longitude": -121.944249,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "C80-2",
+          "stop_name": "Pittsburg / Bay Point",
+          "latitude": 38.01895,
+          "longitude": -121.944248,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "E20-1",
+          "stop_name": "Pittsburg Center",
+          "latitude": 38.016805,
+          "longitude": -121.889039,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "E20-2",
+          "stop_name": "Pittsburg Center",
+          "latitude": 38.016873,
+          "longitude": -121.889011,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "E30-1",
+          "stop_name": "Antioch",
+          "latitude": 37.995343,
+          "longitude": -121.780373,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "E30-2",
+          "stop_name": "Antioch",
+          "latitude": 37.995415,
+          "longitude": -121.780353,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "H40",
+          "stop_name": "Oakland International Airport Station",
+          "latitude": 37.713256,
+          "longitude": -122.212237,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K10-1",
+          "stop_name": "12th Street / Oakland City Center",
+          "latitude": 37.803463,
+          "longitude": -122.271596,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K10-2",
+          "stop_name": "12th Street / Oakland City Center",
+          "latitude": 37.803471,
+          "longitude": -122.271589,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K10-3",
+          "stop_name": "12th Street / Oakland City Center",
+          "latitude": 37.803508,
+          "longitude": -122.271694,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K20-1",
+          "stop_name": "19th Street Oakland",
+          "latitude": 37.808065,
+          "longitude": -122.26872,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K20-2",
+          "stop_name": "19th Street Oakland",
+          "latitude": 37.80806,
+          "longitude": -122.268722,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K20-3",
+          "stop_name": "19th Street Oakland",
+          "latitude": 37.808105,
+          "longitude": -122.268821,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K30-1",
+          "stop_name": "MacArthur",
+          "latitude": 37.82879,
+          "longitude": -122.266978,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K30-2",
+          "stop_name": "MacArthur",
+          "latitude": 37.828827,
+          "longitude": -122.267259,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K30-3",
+          "stop_name": "MacArthur",
+          "latitude": 37.828801,
+          "longitude": -122.267076,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "K30-4",
+          "stop_name": "MacArthur",
+          "latitude": 37.828814,
+          "longitude": -122.267163,
+          "wheelchair_accessible": false
+        }
+      ],
+      "accessibility": "wheelchair_accessible"
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:41:43.584269"
+  },
+  "Denver": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "RTD Denver"
+      ],
+      "types": [
+        "bus",
+        "rail",
+        "tram"
+      ],
+      "route_count": 124,
+      "stop_count": 100,
+      "major_routes": [
+        {
+          "name": "0",
+          "type": "bus"
+        },
+        {
+          "name": "0B",
+          "type": "bus"
+        },
+        {
+          "name": "0L",
+          "type": "bus"
+        },
+        {
+          "name": "1",
+          "type": "bus"
+        },
+        {
+          "name": "10",
+          "type": "bus"
+        },
+        {
+          "name": "100",
+          "type": "bus"
+        },
+        {
+          "name": "D",
+          "type": "tram"
+        },
+        {
+          "name": "E",
+          "type": "tram"
+        },
+        {
+          "name": "H",
+          "type": "tram"
+        },
+        {
+          "name": "W",
+          "type": "tram"
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "26199",
+          "stop_name": "Nine Mile Station Gate J",
+          "latitude": 39.657746,
+          "longitude": -104.846604,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "34314",
+          "stop_name": "Union Station Gate B16",
+          "latitude": 39.75449,
+          "longitude": -105.001649,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "34325",
+          "stop_name": "Union Station Gate B6",
+          "latitude": 39.754218,
+          "longitude": -105.001627,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "35248",
+          "stop_name": "Commerce City - 72nd Station Track 1",
+          "latitude": 39.825899,
+          "longitude": -104.942995,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "35254",
+          "stop_name": "Northglenn - 112th Station Track 1",
+          "latitude": 39.902133,
+          "longitude": -104.960231,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10009",
+          "stop_name": "W 100th Ave & Ura Ln",
+          "latitude": 39.878006,
+          "longitude": -105.011309,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10022",
+          "stop_name": "W 104th Ave & Livingston Dr",
+          "latitude": 39.885307,
+          "longitude": -105.003771,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10188",
+          "stop_name": "12th Ave & Gilpin St",
+          "latitude": 39.736056,
+          "longitude": -104.966469,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10437",
+          "stop_name": "W 1st Ave & Harlan St",
+          "latitude": 39.718635,
+          "longitude": -105.062317,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10517",
+          "stop_name": "W 20th Ave & Lewis St",
+          "latitude": 39.747496,
+          "longitude": -105.113219,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10600",
+          "stop_name": "23rd Ave & Monaco Pkwy",
+          "latitude": 39.751109,
+          "longitude": -104.912696,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10661",
+          "stop_name": "W 26th Ave & Lamar St",
+          "latitude": 39.754752,
+          "longitude": -105.067753,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10705",
+          "stop_name": "28th Ave & Columbine St",
+          "latitude": 39.756913,
+          "longitude": -104.956879,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10833",
+          "stop_name": "30th St & Canyon Blvd",
+          "latitude": 40.015957,
+          "longitude": -105.253861,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10854",
+          "stop_name": "31st Ave & York St",
+          "latitude": 39.760691,
+          "longitude": -104.959332,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10896",
+          "stop_name": "W 32nd Ave & Marshall St",
+          "latitude": 39.762131,
+          "longitude": -105.067913,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "10897",
+          "stop_name": "W 32nd Ave & Meade St",
+          "latitude": 39.76207,
+          "longitude": -105.036072,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11154",
+          "stop_name": "W 44th Ave & Kipling St",
+          "latitude": 39.778209,
+          "longitude": -105.1105,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11185",
+          "stop_name": "W 44th Ave & Tabor St",
+          "latitude": 39.778297,
+          "longitude": -105.130454,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11267",
+          "stop_name": "4400 Block 48th Ave",
+          "latitude": 39.783479,
+          "longitude": -104.935602,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11287",
+          "stop_name": "48th Ave & Holly St",
+          "latitude": 39.783704,
+          "longitude": -104.923402,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11342",
+          "stop_name": "50th Ave & Niagara St",
+          "latitude": 39.787389,
+          "longitude": -104.91071,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11344",
+          "stop_name": "W 50th Ave & Osceola St",
+          "latitude": 39.787389,
+          "longitude": -105.037586,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11810",
+          "stop_name": "88th Ave & Downing St",
+          "latitude": 39.856319,
+          "longitude": -104.971296,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "11862",
+          "stop_name": "8th Ave & Logan St",
+          "latitude": 39.729114,
+          "longitude": -104.982724,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "12013",
+          "stop_name": "W Alameda Ave & S Hooker St",
+          "latitude": 39.711243,
+          "longitude": -105.029121,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "12497",
+          "stop_name": "S Broadway & W Chenango Ave",
+          "latitude": 39.627396,
+          "longitude": -104.988081,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "12601",
+          "stop_name": "Broadway & Sumac Ave",
+          "latitude": 40.051201,
+          "longitude": -105.282018,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "12790",
+          "stop_name": "S Clinton St & Center Ave",
+          "latitude": 39.706088,
+          "longitude": -104.876237,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13034",
+          "stop_name": "Collyer St & 21st Ave",
+          "latitude": 40.195306,
+          "longitude": -105.097753,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13116",
+          "stop_name": "S Colorado Blvd & Florida Ave",
+          "latitude": 39.689612,
+          "longitude": -104.940486,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13311",
+          "stop_name": "W Dartmouth Ave & S Santa Fe Dr",
+          "latitude": 39.660326,
+          "longitude": -105.00017,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13588",
+          "stop_name": "Evans Ave & S High St",
+          "latitude": 39.678572,
+          "longitude": -104.9656,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13644",
+          "stop_name": "W Evans Ave & S Xavier St",
+          "latitude": 39.679213,
+          "longitude": -105.050579,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13653",
+          "stop_name": "W Exposition Ave & S Bryant St",
+          "latitude": 39.70386,
+          "longitude": -105.017762,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13696",
+          "stop_name": "Federal Blvd & W 108th Ave",
+          "latitude": 39.892346,
+          "longitude": -105.02491,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "13799",
+          "stop_name": "S Federal Blvd & W Chenango Ave",
+          "latitude": 39.62771,
+          "longitude": -105.025292,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14105",
+          "stop_name": "Glenwood Dr & 30th St",
+          "latitude": 40.032867,
+          "longitude": -105.254195,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14247",
+          "stop_name": "S Havana St & Bayaud Ave",
+          "latitude": 39.715489,
+          "longitude": -104.86613,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14267",
+          "stop_name": "S Havana St & Girard Ave",
+          "latitude": 39.65673,
+          "longitude": -104.866323,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14406",
+          "stop_name": "Huron St & W 100th Pl",
+          "latitude": 39.878768,
+          "longitude": -104.996553,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14751",
+          "stop_name": "W Kentucky Ave & S Irving St",
+          "latitude": 39.700389,
+          "longitude": -105.030397,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "14886",
+          "stop_name": "S Kipling St & Morrison Rd",
+          "latitude": 39.668462,
+          "longitude": -105.109798,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "15193",
+          "stop_name": "Mansfield Ave & Loyola Pl",
+          "latitude": 39.644316,
+          "longitude": -104.77621,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "15226",
+          "stop_name": "MLK Blvd & Colorado Blvd",
+          "latitude": 39.761969,
+          "longitude": -104.941174,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "15411",
+          "stop_name": "Mississippi Ave & S Monaco Pkwy",
+          "latitude": 39.696687,
+          "longitude": -104.913261,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "15831",
+          "stop_name": "Pecos St & W 54th Pl",
+          "latitude": 39.794923,
+          "longitude": -105.006424,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "15863",
+          "stop_name": "Pecos St & W 97th Ave",
+          "latitude": 39.874159,
+          "longitude": -105.005482,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "16372",
+          "stop_name": "Sable Blvd & 6th Ave",
+          "latitude": 39.725298,
+          "longitude": -104.819266,
+          "wheelchair_accessible": true
+        },
+        {
+          "stop_id": "16400",
+          "stop_name": "S Sable Blvd & Arkansas Dr",
+          "latitude": 39.693339,
+          "longitude": -104.819177,
+          "wheelchair_accessible": true
+        }
+      ],
+      "accessibility": "wheelchair_accessible"
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:42:13.593612"
+  },
+  "Austin": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "Capital Metro"
+      ],
+      "types": [
+        "bus",
+        "tram"
+      ],
+      "route_count": 71,
+      "stop_count": 100,
+      "major_routes": [
+        {
+          "name": "1",
+          "type": "bus"
+        },
+        {
+          "name": "10",
+          "type": "bus"
+        },
+        {
+          "name": "103",
+          "type": "bus"
+        },
+        {
+          "name": "105",
+          "type": "bus"
+        },
+        {
+          "name": "111",
+          "type": "bus"
+        },
+        {
+          "name": "135",
+          "type": "bus"
+        },
+        {
+          "name": "142",
+          "type": "bus"
+        },
+        {
+          "name": "152",
+          "type": "bus"
+        },
+        {
+          "name": "171",
+          "type": "bus"
+        },
+        {
+          "name": "18",
+          "type": "bus"
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "1002",
+          "stop_name": "Riverside/Burton",
+          "latitude": 30.240341,
+          "longitude": -97.727308,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1003",
+          "stop_name": "2237 Riverside/Willow Creek",
+          "latitude": 30.238275,
+          "longitude": -97.726015,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1005",
+          "stop_name": "2507 Riverside/Pleasant Valley",
+          "latitude": 30.233867,
+          "longitude": -97.72376,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1008",
+          "stop_name": "4411 Oltorf/Huntwick",
+          "latitude": 30.226619,
+          "longitude": -97.72626,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1009",
+          "stop_name": "2401 Wickersham/Oltorf",
+          "latitude": 30.226039,
+          "longitude": -97.723488,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1010",
+          "stop_name": "Wickersham/Cromwell",
+          "latitude": 30.227021,
+          "longitude": -97.721847,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1011",
+          "stop_name": "2207 Wickersham/Sheringham",
+          "latitude": 30.229315,
+          "longitude": -97.721353,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1013",
+          "stop_name": "4825 Riverside/Kirksey",
+          "latitude": 30.231316,
+          "longitude": -97.717041,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1015",
+          "stop_name": "5401 Riverside/Faro",
+          "latitude": 30.229169,
+          "longitude": -97.712324,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1017",
+          "stop_name": "Ruiz Library",
+          "latitude": 30.229539,
+          "longitude": -97.706558,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1018",
+          "stop_name": "Riverside/Faro",
+          "latitude": 30.229833,
+          "longitude": -97.712898,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1021",
+          "stop_name": "4823 Riverside/Crossing Place",
+          "latitude": 30.231928,
+          "longitude": -97.717861,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1022",
+          "stop_name": "2100 Wickersham/Riverside",
+          "latitude": 30.231526,
+          "longitude": -97.720884,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1023",
+          "stop_name": "Wickersham/Sheringham",
+          "latitude": 30.229914,
+          "longitude": -97.721493,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1024",
+          "stop_name": "2300 Wickersham/Cromwell",
+          "latitude": 30.227534,
+          "longitude": -97.721731,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1025",
+          "stop_name": "2440 Wickersham/Oltorf",
+          "latitude": 30.226083,
+          "longitude": -97.723784,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1027",
+          "stop_name": "Oltorf East NB (Pleasant Valley/Oltorf)",
+          "latitude": 30.228002,
+          "longitude": -97.727295,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1028",
+          "stop_name": "Sheringham NB (Pleasant Valley/Sheringham)",
+          "latitude": 30.231158,
+          "longitude": -97.725309,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1030",
+          "stop_name": "Riverside/Willow Creek",
+          "latitude": 30.238065,
+          "longitude": -97.725635,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1032",
+          "stop_name": "Riverside/Town Creek",
+          "latitude": 30.24114,
+          "longitude": -97.727591,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1034",
+          "stop_name": "1600 Riverside/Summit",
+          "latitude": 30.246505,
+          "longitude": -97.731969,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1038",
+          "stop_name": "400 Cesar Chavez/Trinity",
+          "latitude": 30.26246,
+          "longitude": -97.74084,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1042",
+          "stop_name": "2231 Guadalupe/West Mall UT",
+          "latitude": 30.285754,
+          "longitude": -97.74162,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1049",
+          "stop_name": "Speedway/35th",
+          "latitude": 30.299217,
+          "longitude": -97.734341,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1051",
+          "stop_name": "Speedway/39th",
+          "latitude": 30.301591,
+          "longitude": -97.732825,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1053",
+          "stop_name": "4301 Speedway/43rd",
+          "latitude": 30.306616,
+          "longitude": -97.729616,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1054",
+          "stop_name": "108 45th Street/Avenue D",
+          "latitude": 30.309112,
+          "longitude": -97.729235,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1055",
+          "stop_name": "408 45th Street/Avenue A",
+          "latitude": 30.310425,
+          "longitude": -97.731878,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1056",
+          "stop_name": "619 45th/Guadalupe",
+          "latitude": 30.311122,
+          "longitude": -97.733277,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1057",
+          "stop_name": "918 45th/Lamar",
+          "latitude": 30.313397,
+          "longitude": -97.737245,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1058",
+          "stop_name": "Sunshine Station (NB)",
+          "latitude": 30.316419,
+          "longitude": -97.735728,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1059",
+          "stop_name": "4801 Sunshine (Criss Cole Rehab)",
+          "latitude": 30.317373,
+          "longitude": -97.735125,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1060",
+          "stop_name": "1100 49th/Grover",
+          "latitude": 30.318789,
+          "longitude": -97.736638,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1061",
+          "stop_name": "1200 51st/Grover",
+          "latitude": 30.320707,
+          "longitude": -97.735989,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1062",
+          "stop_name": "5113 Woodrow/North",
+          "latitude": 30.322371,
+          "longitude": -97.736892,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1063",
+          "stop_name": "5223 Woodrow/North Loop",
+          "latitude": 30.324061,
+          "longitude": -97.735824,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1064",
+          "stop_name": "5413 Woodrow/Houston",
+          "latitude": 30.326186,
+          "longitude": -97.734482,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1065",
+          "stop_name": "5515 Woodrow/Houston",
+          "latitude": 30.327565,
+          "longitude": -97.733603,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1066",
+          "stop_name": "5701 Woodrow/Theckla",
+          "latitude": 30.329034,
+          "longitude": -97.732673,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1067",
+          "stop_name": "5819 Woodrow/Koenig",
+          "latitude": 30.330737,
+          "longitude": -97.73158,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1068",
+          "stop_name": "Woodrow/Alguno",
+          "latitude": 30.332811,
+          "longitude": -97.730682,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1069",
+          "stop_name": "Woodrow/Alegria",
+          "latitude": 30.334573,
+          "longitude": -97.730128,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1070",
+          "stop_name": "6523 Woodrow/Brentwood",
+          "latitude": 30.337279,
+          "longitude": -97.72842,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1072",
+          "stop_name": "Woodrow/Dwyce",
+          "latitude": 30.340171,
+          "longitude": -97.726594,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1074",
+          "stop_name": "7115 Woodrow/Piedmont",
+          "latitude": 30.342849,
+          "longitude": -97.724984,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1075",
+          "stop_name": "Woodrow/Pasadena",
+          "latitude": 30.344977,
+          "longitude": -97.72521,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1076",
+          "stop_name": "Woodrow/Morrow",
+          "latitude": 30.34743,
+          "longitude": -97.723761,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1077",
+          "stop_name": "7717 Woodrow/Princeton",
+          "latitude": 30.34989,
+          "longitude": -97.72302,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1078",
+          "stop_name": "1700 Anderson/Wooten Park",
+          "latitude": 30.35279,
+          "longitude": -97.72362,
+          "wheelchair_accessible": false
+        },
+        {
+          "stop_id": "1080",
+          "stop_name": "Anderson/Mullen",
+          "latitude": 30.35401,
+          "longitude": -97.72622,
+          "wheelchair_accessible": false
+        }
+      ],
+      "accessibility": "wheelchair_accessible"
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:42:13.607114"
+  },
+  "Miami": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "Miami-Dade Transit"
+      ],
+      "types": [
+        "bus",
+        "rapid_transit",
+        "automated_guideway"
+      ],
+      "route_count": 95,
+      "stop_count": 0,
+      "major_routes": [
+        {
+          "name": "Metrorail",
+          "type": "rapid_transit"
+        },
+        {
+          "name": "Metromover",
+          "type": "automated_guideway"
+        },
+        {
+          "name": "Metrobus",
+          "type": "bus"
+        }
+      ],
+      "stops": [],
+      "accessibility": "wheelchair_accessible",
+      "notes": "Metrorail serves 23 stations. Metromover is free automated people mover in downtown."
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.5
+    },
+    "last_updated": "2025-10-23T23:45:00"
+  },
+  "Las Vegas": {
+    "public_transit": {
+      "available": true,
+      "agencies": [
+        "RTC Southern Nevada"
+      ],
+      "types": [
+        "bus",
+        "bus_rapid_transit"
+      ],
+      "route_count": 39,
+      "stop_count": 0,
+      "major_routes": [
+        {
+          "name": "The Deuce",
+          "type": "bus"
+        },
+        {
+          "name": "SDX (Strip & Downtown Express)",
+          "type": "bus_rapid_transit"
+        },
+        {
+          "name": "Las Vegas Monorail",
+          "type": "monorail"
+        }
+      ],
+      "stops": [],
+      "accessibility": "wheelchair_accessible",
+      "notes": "The Deuce runs 24/7 on Las Vegas Strip. Las Vegas Monorail operated separately (private)."
+    },
+    "rideshare": {
+      "available": true,
+      "providers": [
+        "Uber",
+        "Lyft"
+      ],
+      "estimated_cost_per_mile": 2.0
+    },
+    "last_updated": "2025-10-23T23:45:00"
+  }
+}

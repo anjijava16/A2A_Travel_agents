@@ -1,0 +1,6429 @@
+{
+  "Seattle": [
+    {
+      "name": "Neptune Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Neptune Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.661136,
+      "longitude": -122.314031,
+      "accessibility": "not_specified",
+      "wikidata": "Q29829461",
+      "wikimedia_commons": "Category:Neptune Theater (Seattle)"
+    },
+    {
+      "name": "Landmark Varsity",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Landmark Varsity in Seattle",
+      "price": 15,
+      "latitude": 47.660715,
+      "longitude": -122.313361,
+      "accessibility": "not_specified",
+      "wikidata": "Q43306782"
+    },
+    {
+      "name": "Nippon Kan Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Nippon Kan Theater in Seattle",
+      "price": 50,
+      "latitude": 47.600984,
+      "longitude": -122.325354,
+      "accessibility": "not_specified",
+      "wikidata": "Q7039629"
+    },
+    {
+      "name": "WaMu Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "WaMu Theater in Seattle",
+      "price": 50,
+      "latitude": 47.593154,
+      "longitude": -122.332904,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Bainbridge Cinemas",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Bainbridge Cinemas in Seattle",
+      "price": 15,
+      "latitude": 47.627086,
+      "longitude": -122.521746,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://farawayentertainment.com/bainbridge-cinemas/"
+      },
+      "wikidata": "Q43305564"
+    },
+    {
+      "name": "El Coraz\u00f3n",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "El Coraz\u00f3n in Seattle",
+      "price": 25,
+      "latitude": 47.618729,
+      "longitude": -122.329315,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.elcorazonseattle.com/"
+      }
+    },
+    {
+      "name": "Neumos",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Neumos in Seattle",
+      "price": 25,
+      "latitude": 47.613954,
+      "longitude": -122.319611,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.neumos.com"
+      }
+    },
+    {
+      "name": "Chapel Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Chapel Lounge in Seattle",
+      "price": 25,
+      "latitude": 47.600348,
+      "longitude": -122.334395,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Majestic Bay",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Majestic Bay in Seattle",
+      "price": 15,
+      "latitude": 47.668857,
+      "longitude": -122.384104,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.majesticbay.com/"
+      },
+      "opening_hours": "\"says box office is open at 3pm, no closing hours noted\"",
+      "wikidata": "Q7749676"
+    },
+    {
+      "name": "Ark Lodge Cinemas",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Ark Lodge Cinemas in Seattle",
+      "price": 15,
+      "latitude": 47.558994,
+      "longitude": -122.285421,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://arklodgecinemas.com/"
+      },
+      "wikidata": "Q43306248"
+    },
+    {
+      "name": "Regal Cinemas Thornton Place 14 & IMAX",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Cinemas Thornton Place 14 & IMAX in Seattle",
+      "price": 15,
+      "latitude": 47.702788,
+      "longitude": -122.325333,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.regmovies.com/theaters/regal-thornton-place-stadium-14-imax/C00402789159"
+      },
+      "wikidata": "Q43306720"
+    },
+    {
+      "name": "Central Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Central Cinema in Seattle",
+      "price": 15,
+      "latitude": 47.613222,
+      "longitude": -122.305166,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.central-cinema.com/"
+      },
+      "wikidata": "Q43306569"
+    },
+    {
+      "name": "Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Amphitheatre in Seattle",
+      "price": 50,
+      "latitude": 47.591843,
+      "longitude": -122.183746,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Admiral Twin Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Admiral Twin Theater in Seattle",
+      "price": 15,
+      "latitude": 47.581747,
+      "longitude": -122.386912,
+      "accessibility": "not_specified",
+      "wikidata": "Q4683714"
+    },
+    {
+      "name": "Moore Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Moore Theater in Seattle",
+      "price": 50,
+      "latitude": 47.611731,
+      "longitude": -122.341425,
+      "accessibility": "not_specified",
+      "wikidata": "Q6908241"
+    },
+    {
+      "name": "Regal Meridian 16",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Meridian 16 in Seattle",
+      "price": 15,
+      "latitude": 47.611688,
+      "longitude": -122.333699,
+      "accessibility": "not_specified",
+      "wikidata": "Q43306716"
+    },
+    {
+      "name": "West of Lenin",
+      "type": "indoor",
+      "category": "theater",
+      "description": "West of Lenin in Seattle",
+      "price": 50,
+      "latitude": 47.652401,
+      "longitude": -122.356313,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Emerald City Comedy Club",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Emerald City Comedy Club in Seattle",
+      "price": 50,
+      "latitude": 47.620238,
+      "longitude": -122.320672,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-390-9152",
+        "website": "https://comedyslashbar.com",
+        "email": "info@comedyslashbar.com"
+      }
+    },
+    {
+      "name": "Annex Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Annex Theater in Seattle",
+      "price": 50,
+      "latitude": 47.614309,
+      "longitude": -122.317974,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.annextheatre.org/"
+      }
+    },
+    {
+      "name": "queer/bar",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "queer/bar in Seattle",
+      "price": 25,
+      "latitude": 47.61478,
+      "longitude": -122.31795,
+      "accessibility": "not_specified",
+      "wikidata": "Q65074307"
+    },
+    {
+      "name": "Vice",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Vice in Seattle",
+      "price": 25,
+      "latitude": 47.614734,
+      "longitude": -122.32844,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.viceseattle.com"
+      }
+    },
+    {
+      "name": "Q Nightclub",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Q Nightclub in Seattle",
+      "price": 25,
+      "latitude": 47.613746,
+      "longitude": -122.320336,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://qnightclub.com/"
+      }
+    },
+    {
+      "name": "Novabox Karaoke",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Novabox Karaoke in Seattle",
+      "price": 25,
+      "latitude": 47.66441,
+      "longitude": -122.312929,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Vue",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Vue in Seattle",
+      "price": 25,
+      "latitude": 47.614694,
+      "longitude": -122.34637,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Ora",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Ora in Seattle",
+      "price": 25,
+      "latitude": 47.614142,
+      "longitude": -122.347476,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Annex",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Annex in Seattle",
+      "price": 25,
+      "latitude": 47.612984,
+      "longitude": -122.343453,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Dimitriou's Jazz Alley",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Dimitriou's Jazz Alley in Seattle",
+      "price": 50,
+      "latitude": 47.614816,
+      "longitude": -122.339691,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-206-441-9729",
+        "website": "http://www.jazzalley.com/"
+      }
+    },
+    {
+      "name": "Seattle's Best Karaoke",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Seattle's Best Karaoke in Seattle",
+      "price": 25,
+      "latitude": 47.617387,
+      "longitude": -122.331199,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Supernova",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Supernova in Seattle",
+      "price": 25,
+      "latitude": 47.57459,
+      "longitude": -122.333591,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.supernovaseattle.com/"
+      },
+      "wikidata": "Q115802015"
+    },
+    {
+      "name": "Monkey Loft",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Monkey Loft in Seattle",
+      "price": 25,
+      "latitude": 47.577189,
+      "longitude": -122.334466,
+      "accessibility": "not_specified",
+      "opening_hours": "Th 20:00-03:00; Fr-Sa 20:00-04:00"
+    },
+    {
+      "name": "Showbox SoDo",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Showbox SoDo in Seattle",
+      "price": 25,
+      "latitude": 47.588046,
+      "longitude": -122.333928,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.showboxpresents.com/"
+      },
+      "wikidata": "Q7503150"
+    },
+    {
+      "name": "Seattle Open Arts Place",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Open Arts Place in Seattle",
+      "price": 50,
+      "latitude": 47.61313,
+      "longitude": -122.308688,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-206-937-6499",
+        "website": "https://www.seattleopenartsplace.org/"
+      }
+    },
+    {
+      "name": "ArtsWest",
+      "type": "indoor",
+      "category": "theater",
+      "description": "ArtsWest in Seattle",
+      "price": 50,
+      "latitude": 47.560716,
+      "longitude": -122.387023,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-938-0339",
+        "website": "https://www.artswest.org/"
+      }
+    },
+    {
+      "name": "Market Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Market Theater in Seattle",
+      "price": 50,
+      "latitude": 47.608338,
+      "longitude": -122.340263,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://unexpectedproductions.org/"
+      },
+      "wikidata": "Q43305863"
+    },
+    {
+      "name": "Showbox at the Market",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Showbox at the Market in Seattle",
+      "price": 50,
+      "latitude": 47.608514,
+      "longitude": -122.339473,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-628-3151",
+        "website": "http://www.showboxonline.com/index.php"
+      },
+      "wikidata": "Q7503150"
+    },
+    {
+      "name": "On the Boards",
+      "type": "indoor",
+      "category": "theater",
+      "description": "On the Boards in Seattle",
+      "price": 50,
+      "latitude": 47.62583,
+      "longitude": -122.358195,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.ontheboards.org/"
+      }
+    },
+    {
+      "name": "ACT Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "ACT Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.61085,
+      "longitude": -122.332326,
+      "accessibility": "not_specified",
+      "wikidata": "Q4650897"
+    },
+    {
+      "name": "5th Avenue Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "5th Avenue Theater in Seattle",
+      "price": 50,
+      "latitude": 47.609168,
+      "longitude": -122.333984,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-625-1900",
+        "website": "https://www.5thavenue.org/",
+        "email": "info@5thavenue.org"
+      },
+      "wikidata": "Q386819"
+    },
+    {
+      "name": "The Triple Door",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Triple Door in Seattle",
+      "price": 50,
+      "latitude": 47.608644,
+      "longitude": -122.337685,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-838-4333",
+        "website": "https://thetripledoor.net/"
+      },
+      "wikidata": "Q7770255"
+    },
+    {
+      "name": "The Beacon Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "The Beacon Cinema in Seattle",
+      "price": 15,
+      "latitude": 47.564068,
+      "longitude": -122.288367,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://thebeacon.film/"
+      },
+      "wikidata": "Q88225662"
+    },
+    {
+      "name": "Theater Off Jackson",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Theater Off Jackson in Seattle",
+      "price": 50,
+      "latitude": 47.598855,
+      "longitude": -122.323938,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Public Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Public Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.682134,
+      "longitude": -122.339832,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.seattlepublictheater.org/"
+      }
+    },
+    {
+      "name": "SIFF Film Center",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "SIFF Film Center in Seattle",
+      "price": 15,
+      "latitude": 47.623125,
+      "longitude": -122.35319,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.siff.net/year-round-cinema/cinema-venues/siff-film-center"
+      },
+      "wikidata": "Q43306740"
+    },
+    {
+      "name": "PACCAR IMAX Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "PACCAR IMAX Theater in Seattle",
+      "price": 15,
+      "latitude": 47.619681,
+      "longitude": -122.352073,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://pacificsciencecenter.org/visit/imax/"
+      }
+    },
+    {
+      "name": "Center House Stage",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Center House Stage in Seattle",
+      "price": 50,
+      "latitude": 47.621727,
+      "longitude": -122.350661,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Boeing IMAX Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Boeing IMAX Theater in Seattle",
+      "price": 15,
+      "latitude": 47.619783,
+      "longitude": -122.350532,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Laser Dome",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Laser Dome in Seattle",
+      "price": 15,
+      "latitude": 47.619093,
+      "longitude": -122.351928,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Crocodile",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Crocodile in Seattle",
+      "price": 25,
+      "latitude": 47.614647,
+      "longitude": -122.349073,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.thecrocodile.com/"
+      },
+      "wikidata": "Q5187381"
+    },
+    {
+      "name": "Kirkland Performance Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Kirkland Performance Center in Seattle",
+      "price": 50,
+      "latitude": 47.675586,
+      "longitude": -122.200946,
+      "accessibility": "not_specified",
+      "wikidata": "Q6415741"
+    },
+    {
+      "name": "Seattle Venue 50",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 50 in Seattle",
+      "price": 50,
+      "latitude": 47.659366,
+      "longitude": -122.365876,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Luther Burbank Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Luther Burbank Amphitheatre in Seattle",
+      "price": 50,
+      "latitude": 47.592021,
+      "longitude": -122.226692,
+      "accessibility": "wheelchair_friendly"
+    },
+    {
+      "name": "Club Z",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Club Z in Seattle",
+      "price": 25,
+      "latitude": 47.613635,
+      "longitude": -122.328061,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "AMC Pacific Place 11",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Pacific Place 11 in Seattle",
+      "price": 15,
+      "latitude": 47.613148,
+      "longitude": -122.335533,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.amctheatres.com/movie-theatres/seattle-tacoma/amc-pacific-place-11"
+      },
+      "wikidata": "Q43306509"
+    },
+    {
+      "name": "Egan's Ballard Jam House",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Egan's Ballard Jam House in Seattle",
+      "price": 25,
+      "latitude": 47.668509,
+      "longitude": -122.379341,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-789-1621",
+        "website": "https://www.ballardjamhouse.com/"
+      },
+      "opening_hours": "We-Sa 18:00-23:00"
+    },
+    {
+      "name": "Seattle Civic Dance Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Civic Dance Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.522349,
+      "longitude": -122.388074,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Vera Project",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Vera Project in Seattle",
+      "price": 50,
+      "latitude": 47.623099,
+      "longitude": -122.353877,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-206-956-8372",
+        "website": "https://theveraproject.org/"
+      },
+      "wikidata": "Q7772198"
+    },
+    {
+      "name": "Seattle Venue 57",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Open Air Amphitheatre",
+      "price": 50,
+      "latitude": 47.601127,
+      "longitude": -122.304014,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Cinemark Reserve Lincoln Square - Dine-In 21+",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cinemark Reserve Lincoln Square - Dine-In 21+ in Seattle",
+      "price": 15,
+      "latitude": 47.614428,
+      "longitude": -122.201214,
+      "accessibility": "wheelchair_friendly",
+      "wikidata": "Q78916703"
+    },
+    {
+      "name": "Cinemark Lincoln Square",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cinemark Lincoln Square in Seattle",
+      "price": 15,
+      "latitude": 47.616725,
+      "longitude": -122.200705,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.cinemark.com/washington/cinemark-lincoln-square"
+      },
+      "wikidata": "Q43305575"
+    },
+    {
+      "name": "Seattle Venue 60",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 60 in Seattle",
+      "price": 50,
+      "latitude": 47.471687,
+      "longitude": -122.340543,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Isaac Studio Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Isaac Studio Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.690726,
+      "longitude": -122.355902,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Off Book Productions",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Off Book Productions in Seattle",
+      "price": 50,
+      "latitude": 47.690408,
+      "longitude": -122.290939,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://seattleoffbook.com"
+      }
+    },
+    {
+      "name": "Trinity Nightclub",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Trinity Nightclub in Seattle",
+      "price": 25,
+      "latitude": 47.601602,
+      "longitude": -122.333347,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 64",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 64 in Seattle",
+      "price": 50,
+      "latitude": 47.54541,
+      "longitude": -122.372481,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 65",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Rhinoceros seating",
+      "price": 50,
+      "latitude": 47.668201,
+      "longitude": -122.348208,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Wildlife Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Wildlife Theater in Seattle",
+      "price": 50,
+      "latitude": 47.66953,
+      "longitude": -122.349849,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Alvord Broadleaf Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Alvord Broadleaf Theater in Seattle",
+      "price": 50,
+      "latitude": 47.667679,
+      "longitude": -122.353159,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 68",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 68 in Seattle",
+      "price": 50,
+      "latitude": 47.71202,
+      "longitude": -122.370624,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Madame Lou's",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Madame Lou's in Seattle",
+      "price": 25,
+      "latitude": 47.614598,
+      "longitude": -122.349117,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.thecrocodile.com/madame-lous"
+      }
+    },
+    {
+      "name": "Belltown Yacht Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Belltown Yacht Club in Seattle",
+      "price": 25,
+      "latitude": 47.614075,
+      "longitude": -122.346838,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Timbre Room",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Timbre Room in Seattle",
+      "price": 25,
+      "latitude": 47.616922,
+      "longitude": -122.331167,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Kremwerk",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Kremwerk in Seattle",
+      "price": 25,
+      "latitude": 47.616899,
+      "longitude": -122.331115,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Cherry Seattle",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Cherry Seattle in Seattle",
+      "price": 25,
+      "latitude": 47.616956,
+      "longitude": -122.331127,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Kalakala Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Kalakala Amphitheater in Seattle",
+      "price": 50,
+      "latitude": 47.672402,
+      "longitude": -122.196935,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Barboza",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Barboza in Seattle",
+      "price": 25,
+      "latitude": 47.613827,
+      "longitude": -122.319628,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.thebarboza.com/"
+      }
+    },
+    {
+      "name": "Drama Studio",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Drama Studio in Seattle",
+      "price": 50,
+      "latitude": 47.697612,
+      "longitude": -122.289862,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Brechemin Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Brechemin Auditorium in Seattle",
+      "price": 50,
+      "latitude": 47.657774,
+      "longitude": -122.305999,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://music.washington.edu/brechemin-auditorium"
+      }
+    },
+    {
+      "name": "Seattle Venue 78",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 78 in Seattle",
+      "price": 50,
+      "latitude": 47.720518,
+      "longitude": -122.229794,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Funhouse",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Funhouse in Seattle",
+      "price": 25,
+      "latitude": 47.618887,
+      "longitude": -122.329315,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.TheFunhouseSeattle.com"
+      }
+    },
+    {
+      "name": "OHM",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "OHM in Seattle",
+      "price": 25,
+      "latitude": 47.601006,
+      "longitude": -122.331873,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-425-419-1288",
+        "website": "https://ohmseattle.com/"
+      },
+      "opening_hours": "Fr-Sa 21:00-02:00"
+    },
+    {
+      "name": "Lumen Field Event Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Lumen Field Event Center in Seattle",
+      "price": 50,
+      "latitude": 47.593296,
+      "longitude": -122.332176,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Hughes Penthouse Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Hughes Penthouse Theater in Seattle",
+      "price": 50,
+      "latitude": 47.660714,
+      "longitude": -122.308118,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "AMC Oak Tree 6",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Oak Tree 6 in Seattle",
+      "price": 15,
+      "latitude": 47.701842,
+      "longitude": -122.3425,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.amctheatres.com/movie-theatres/seattle-tacoma/amc-oak-tree-6"
+      },
+      "wikidata": "Q43306504"
+    },
+    {
+      "name": "Sylvan Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Sylvan Theater in Seattle",
+      "price": 50,
+      "latitude": 47.65265,
+      "longitude": -122.306031,
+      "accessibility": "wheelchair_friendly",
+      "wikidata": "Q19885173"
+    },
+    {
+      "name": "Taproot Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Taproot Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.690847,
+      "longitude": -122.356281,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://taproottheatre.org/"
+      },
+      "wikidata": "Q7684822"
+    },
+    {
+      "name": "Seattle Children's Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Children's Theater in Seattle",
+      "price": 50,
+      "latitude": 47.620501,
+      "longitude": -122.35219,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-441-3322",
+        "website": "https://www.sct.org/"
+      },
+      "opening_hours": "Tu-Su 10:00-15:00; Th-Sa 10:00-18:00"
+    },
+    {
+      "name": "Benaroya Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Benaroya Hall in Seattle",
+      "price": 50,
+      "latitude": 47.608117,
+      "longitude": -122.337011,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-206-215-4800",
+        "website": "https://www.seattlesymphony.org/benaroyahall"
+      },
+      "wikidata": "Q3892069"
+    },
+    {
+      "name": "Stone Karaoke and Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Stone Karaoke and Lounge in Seattle",
+      "price": 25,
+      "latitude": 47.620191,
+      "longitude": -122.2012,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Paramount Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Paramount Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.613249,
+      "longitude": -122.331397,
+      "accessibility": "not_specified",
+      "wikidata": "Q3363536"
+    },
+    {
+      "name": "Nectar Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Nectar Lounge in Seattle",
+      "price": 25,
+      "latitude": 47.652335,
+      "longitude": -122.353854,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-206-632-2020",
+        "website": "https://nectarlounge.com/"
+      },
+      "opening_hours": "20:00-02:00"
+    },
+    {
+      "name": "Broadway Performance Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Broadway Performance Hall in Seattle",
+      "price": 50,
+      "latitude": 47.615815,
+      "longitude": -122.32186,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 92",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 92 in Seattle",
+      "price": 50,
+      "latitude": 47.550547,
+      "longitude": -122.25141,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "McCaw Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "McCaw Hall in Seattle",
+      "price": 50,
+      "latitude": 47.623957,
+      "longitude": -122.350409,
+      "accessibility": "not_specified",
+      "wikidata": "Q11705574"
+    },
+    {
+      "name": "Seattle Repertory Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Repertory Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.623925,
+      "longitude": -122.353592,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-206-443-2222",
+        "website": "https://www.seattlerep.org/"
+      },
+      "wikidata": "Q7442163"
+    },
+    {
+      "name": "Tractor Tavern",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Tractor Tavern in Seattle",
+      "price": 25,
+      "latitude": 47.665709,
+      "longitude": -122.382803,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://tractortavern.com/"
+      },
+      "opening_hours": "20:00-02:00"
+    },
+    {
+      "name": "The Buxton Center for Bainbridge Performing Arts",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Buxton Center for Bainbridge Performing Arts in Seattle",
+      "price": 50,
+      "latitude": 47.626083,
+      "longitude": -122.5185,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Cuff Complex",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Cuff Complex in Seattle",
+      "price": 25,
+      "latitude": 47.61502,
+      "longitude": -122.315946,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.cuffcomplex.com/"
+      },
+      "wikidata": "Q22022273"
+    },
+    {
+      "name": "Northwest Puppet Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Northwest Puppet Center in Seattle",
+      "price": 50,
+      "latitude": 47.695565,
+      "longitude": -122.312474,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Ethnic Cultural Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Ethnic Cultural Theater in Seattle",
+      "price": 50,
+      "latitude": 47.655177,
+      "longitude": -122.314187,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://depts.washington.edu/ecc/reservations/ecc-theatre/"
+      }
+    },
+    {
+      "name": "SIFF Cinema Uptown",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "SIFF Cinema Uptown in Seattle",
+      "price": 15,
+      "latitude": 47.623536,
+      "longitude": -122.357107,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.siff.net/"
+      },
+      "wikidata": "Q43306738"
+    },
+    {
+      "name": "Kenyon Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Kenyon Hall in Seattle",
+      "price": 50,
+      "latitude": 47.531662,
+      "longitude": -122.376177,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.kenyonhall.org/"
+      },
+      "wikidata": "Q43305835"
+    },
+    {
+      "name": "Benaroya Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Benaroya Theatre in Seattle",
+      "price": 50,
+      "latitude": 47.622735,
+      "longitude": -122.286882,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Magnuson Community Garden Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Magnuson Community Garden Amphitheater in Seattle",
+      "price": 50,
+      "latitude": 47.682741,
+      "longitude": -122.258703,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.seattle.gov/magnusongarden/amphitheater/amphi.htm"
+      }
+    },
+    {
+      "name": "SIFF Cinema Downtown",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "SIFF Cinema Downtown in Seattle",
+      "price": 15,
+      "latitude": 47.614201,
+      "longitude": -122.34135,
+      "accessibility": "not_specified",
+      "wikidata": "Q7442077"
+    },
+    {
+      "name": "Gates Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Gates Amphitheater in Seattle",
+      "price": 50,
+      "latitude": 47.616703,
+      "longitude": -122.354731,
+      "accessibility": "wheelchair_friendly"
+    },
+    {
+      "name": "AMC Loews Factoria 8",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Loews Factoria 8 in Seattle",
+      "price": 15,
+      "latitude": 47.579008,
+      "longitude": -122.17035,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-425-641-3461",
+        "website": "https://www.amctheatres.com/movie-theatres/seattle-tacoma/amc-loews-factoria-8"
+      },
+      "wikidata": "Q43305568"
+    },
+    {
+      "name": "Mural Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Mural Amphitheatre in Seattle",
+      "price": 50,
+      "latitude": 47.620467,
+      "longitude": -122.350771,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Gas Works Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Gas Works Amphitheater in Seattle",
+      "price": 50,
+      "latitude": 47.644576,
+      "longitude": -122.334431,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Floyd and Delores Jones Playhouse",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Floyd and Delores Jones Playhouse in Seattle",
+      "price": 50,
+      "latitude": 47.656648,
+      "longitude": -122.313597,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://artsuw.org/venue/floyd-and-delores-jones-playhouse"
+      },
+      "wikidata": "Q7203369",
+      "wikimedia_commons": "File:Univ of Wash Playhouse 01.jpg"
+    },
+    {
+      "name": "Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Amphitheater in Seattle",
+      "price": 50,
+      "latitude": 47.604308,
+      "longitude": -122.163712,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Columbia City Theater",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Columbia City Theater in Seattle",
+      "price": 25,
+      "latitude": 47.557278,
+      "longitude": -122.284425,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://columbiacitytheater.com/"
+      },
+      "wikidata": "Q43306244"
+    },
+    {
+      "name": "Erickson Theatre on Broadway",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Erickson Theatre on Broadway in Seattle",
+      "price": 50,
+      "latitude": 47.614672,
+      "longitude": -122.321742,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Burien Actors Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Burien Actors Theater in Seattle",
+      "price": 50,
+      "latitude": 47.473721,
+      "longitude": -122.340726,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 114",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 114 in Seattle",
+      "price": 50,
+      "latitude": 47.591713,
+      "longitude": -122.317524,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 115",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 115 in Seattle",
+      "price": 50,
+      "latitude": 47.613613,
+      "longitude": -122.317443,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Kirkland Performance Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Kirkland Performance Center in Seattle",
+      "price": 50,
+      "latitude": 47.675776,
+      "longitude": -122.200941,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Seattle Venue 117",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Seattle Venue 117 in Seattle",
+      "price": 50,
+      "latitude": 47.658184,
+      "longitude": -122.338078,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "BIMA Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "BIMA Auditorium in Seattle",
+      "price": 50,
+      "latitude": 47.625351,
+      "longitude": -122.514734,
+      "accessibility": "not_specified"
+    }
+  ],
+  "Portland": [
+    {
+      "name": "Lake Theater & Cafe",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Lake Theater & Cafe in Portland",
+      "price": 15,
+      "latitude": 45.416417,
+      "longitude": -122.663817,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-482-2135",
+        "website": "https://laketheatercafe.com/"
+      },
+      "opening_hours": "11:30+",
+      "wikidata": "Q43200425"
+    },
+    {
+      "name": "Doug Fir",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Doug Fir in Portland",
+      "price": 25,
+      "latitude": 45.522655,
+      "longitude": -122.65684,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Avalon Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Avalon Theatre in Portland",
+      "price": 15,
+      "latitude": 45.51656,
+      "longitude": -122.628478,
+      "accessibility": "not_specified",
+      "wikidata": "Q4827609"
+    },
+    {
+      "name": "Cerf Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Cerf Amphitheatre in Portland",
+      "price": 50,
+      "latitude": 45.481832,
+      "longitude": -122.632165,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Performance Works NorthWest",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Performance Works NorthWest in Portland",
+      "price": 50,
+      "latitude": 45.489216,
+      "longitude": -122.594612,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "DV8",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "DV8 in Portland",
+      "price": 25,
+      "latitude": 45.497699,
+      "longitude": -122.610644,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-772-2907",
+        "website": "http://www.dv8.cc/"
+      },
+      "opening_hours": "00:00-02:15,14:00-24:00"
+    },
+    {
+      "name": "Regal City Center Stadium 12",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal City Center Stadium 12 in Portland",
+      "price": 15,
+      "latitude": 45.627149,
+      "longitude": -122.668707,
+      "accessibility": "not_specified",
+      "wikidata": "Q43307036"
+    },
+    {
+      "name": "The Headwaters Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Headwaters Theatre in Portland",
+      "price": 50,
+      "latitude": 45.579803,
+      "longitude": -122.665681,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.theheadwaters.net"
+      }
+    },
+    {
+      "name": "Regal Cinemas Fox Tower 10",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Cinemas Fox Tower 10 in Portland",
+      "price": 15,
+      "latitude": 45.51836,
+      "longitude": -122.681083,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.regmovies.com/theatres/regal-fox-tower-0633"
+      },
+      "wikidata": "Q43200820"
+    },
+    {
+      "name": "The Bowl",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Bowl in Portland",
+      "price": 50,
+      "latitude": 45.512575,
+      "longitude": -122.674003,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Brunish Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Brunish Theatre in Portland",
+      "price": 50,
+      "latitude": 45.516673,
+      "longitude": -122.68189,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portland5.com/"
+      }
+    },
+    {
+      "name": "Dolores Winningstad Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Dolores Winningstad Theatre in Portland",
+      "price": 50,
+      "latitude": 45.516585,
+      "longitude": -122.681539,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portland5.com/"
+      }
+    },
+    {
+      "name": "Newmark Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Newmark Theatre in Portland",
+      "price": 50,
+      "latitude": 45.51652,
+      "longitude": -122.681575,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portland5.com/"
+      }
+    },
+    {
+      "name": "Portland Venue 14",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 14 in Portland",
+      "price": 50,
+      "latitude": 45.58733,
+      "longitude": -122.7589,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Regal Cinemas Pioneer Place 6",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Cinemas Pioneer Place 6 in Portland",
+      "price": 15,
+      "latitude": 45.518004,
+      "longitude": -122.676263,
+      "accessibility": "not_specified",
+      "wikidata": "Q43200826"
+    },
+    {
+      "name": "Portland Venue 16",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 16 in Portland",
+      "price": 50,
+      "latitude": 45.437169,
+      "longitude": -122.732259,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 17",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 17 in Portland",
+      "price": 50,
+      "latitude": 45.604971,
+      "longitude": -122.657817,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Empirical Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Empirical Theater in Portland",
+      "price": 15,
+      "latitude": 45.508265,
+      "longitude": -122.665386,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.omsi.edu/theater"
+      },
+      "wikidata": "Q43200874"
+    },
+    {
+      "name": "Jubitz Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Jubitz Cinema in Portland",
+      "price": 15,
+      "latitude": 45.597533,
+      "longitude": -122.669303,
+      "accessibility": "not_specified",
+      "wikidata": "Q80930867"
+    },
+    {
+      "name": "Wunderland",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Wunderland in Portland",
+      "price": 15,
+      "latitude": 45.536153,
+      "longitude": -122.85385,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-626-1665"
+      },
+      "wikidata": "Q43200056"
+    },
+    {
+      "name": "Hollywood Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Hollywood Theatre in Portland",
+      "price": 15,
+      "latitude": 45.58932,
+      "longitude": -122.597826,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Shake",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Shake in Portland",
+      "price": 25,
+      "latitude": 45.523703,
+      "longitude": -122.674241,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.pdx-shake.com/"
+      }
+    },
+    {
+      "name": "Sanctuary",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Sanctuary in Portland",
+      "price": 25,
+      "latitude": 45.523528,
+      "longitude": -122.680299,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.pdxsanctuary.com/"
+      }
+    },
+    {
+      "name": "Brody Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Brody Theater in Portland",
+      "price": 50,
+      "latitude": 45.523401,
+      "longitude": -122.677246,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-224-2227",
+        "website": "http://www.brodytheater.com/",
+        "email": "info@brodytheater.com"
+      },
+      "opening_hours": "We 21:00-24:00; Th 19:00-22:00; Fr-Sa 19:00-24:00; Su 18:30-22:00"
+    },
+    {
+      "name": "The Whiskey Bar",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Whiskey Bar in Portland",
+      "price": 25,
+      "latitude": 45.523549,
+      "longitude": -122.671572,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-227-0405",
+        "website": "http://whiskeybarpdx.com/"
+      }
+    },
+    {
+      "name": "Elevate Nightclub",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Elevate Nightclub in Portland",
+      "price": 25,
+      "latitude": 45.524253,
+      "longitude": -122.675636,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Darcelle XV",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Darcelle XV in Portland",
+      "price": 50,
+      "latitude": 45.524821,
+      "longitude": -122.673258,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-222-5338",
+        "website": "https://www.darcellexv.com/"
+      },
+      "wikidata": "Q97360108"
+    },
+    {
+      "name": "CC Slaughters",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "CC Slaughters in Portland",
+      "price": 25,
+      "latitude": 45.52468,
+      "longitude": -122.672945,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-248-9135",
+        "website": "https://ccslaughterspdx.com/"
+      },
+      "opening_hours": "Th-Sa 15:00-02:00, Su 14:00-02:00, Mo-We 17:00-24:00",
+      "wikidata": "Q16890109"
+    },
+    {
+      "name": "Dante's",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Dante's in Portland",
+      "price": 25,
+      "latitude": 45.522943,
+      "longitude": -122.673689,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://danteslive.com/"
+      },
+      "wikidata": "Q5221127"
+    },
+    {
+      "name": "CineMagic",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "CineMagic in Portland",
+      "price": 15,
+      "latitude": 45.51233,
+      "longitude": -122.645079,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-231-7919",
+        "website": "https://www.thecinemagictheater.com/"
+      },
+      "wikidata": "Q43199622"
+    },
+    {
+      "name": "Barrel Room",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Barrel Room in Portland",
+      "price": 25,
+      "latitude": 45.523986,
+      "longitude": -122.673713,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-242-0700",
+        "website": "https://www.barrelroompdx.com/"
+      },
+      "opening_hours": "Fr-Sa 18:30+"
+    },
+    {
+      "name": "Alpenrose Opera House",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Alpenrose Opera House in Portland",
+      "price": 50,
+      "latitude": 45.480079,
+      "longitude": -122.742029,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Decker Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Decker Theatre in Portland",
+      "price": 50,
+      "latitude": 45.634496,
+      "longitude": -122.653761,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Kennedy School Movie Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Kennedy School Movie Theater in Portland",
+      "price": 15,
+      "latitude": 45.564907,
+      "longitude": -122.630144,
+      "accessibility": "not_specified",
+      "wikidata": "Q6389685"
+    },
+    {
+      "name": "Portland Venue 35",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 35 in Portland",
+      "price": 50,
+      "latitude": 45.548941,
+      "longitude": -122.531417,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Venue Gentleman's Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Venue Gentleman's Club in Portland",
+      "price": 25,
+      "latitude": 45.518673,
+      "longitude": -122.561922,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "(503) 477-9523",
+        "website": "https://www.clubvenuepdx.com/"
+      }
+    },
+    {
+      "name": "Portland Venue 37",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 37 in Portland",
+      "price": 50,
+      "latitude": 45.433663,
+      "longitude": -122.802395,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 38",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 38 in Portland",
+      "price": 50,
+      "latitude": 45.459056,
+      "longitude": -122.624949,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Spark Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Spark Lounge in Portland",
+      "price": 25,
+      "latitude": 45.523709,
+      "longitude": -122.673801,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Candy",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Candy in Portland",
+      "price": 25,
+      "latitude": 45.523595,
+      "longitude": -122.680412,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.pdxcandy.com/"
+      }
+    },
+    {
+      "name": "E.L. Wiegand Studio Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "E.L. Wiegand Studio Theatre in Portland",
+      "price": 50,
+      "latitude": 45.486012,
+      "longitude": -122.768958,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 42",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 42 in Portland",
+      "price": 50,
+      "latitude": 45.510731,
+      "longitude": -122.825345,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Olympia Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Olympia Theater in Portland",
+      "price": 50,
+      "latitude": 45.510719,
+      "longitude": -122.826645,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Center for an Untold Tomorrow",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Center for an Untold Tomorrow in Portland",
+      "price": 15,
+      "latitude": 45.51775,
+      "longitude": -122.683076,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 503 221 1156",
+        "website": "https://portlandartmuseum.org/pam-cut/"
+      },
+      "wikidata": "Q7060036"
+    },
+    {
+      "name": "Profile Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Profile Theatre in Portland",
+      "price": 50,
+      "latitude": 45.524667,
+      "longitude": -122.684037,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://profiletheatre.org"
+      }
+    },
+    {
+      "name": "Jack London Revue",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Jack London Revue in Portland",
+      "price": 25,
+      "latitude": 45.51944,
+      "longitude": -122.676324,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.jacklondonrevue.com/"
+      }
+    },
+    {
+      "name": "Cinemark Century 16",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cinemark Century 16 in Portland",
+      "price": 15,
+      "latitude": 45.497792,
+      "longitude": -122.812079,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-503-520-0892",
+        "website": "https://www.cinemark.com/"
+      },
+      "wikidata": "Q43199613"
+    },
+    {
+      "name": "Regal Cinemas Lloyd Center 10 & IMAX",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Cinemas Lloyd Center 10 & IMAX in Portland",
+      "price": 15,
+      "latitude": 45.530925,
+      "longitude": -122.650051,
+      "accessibility": "not_specified",
+      "wikidata": "Q43199657"
+    },
+    {
+      "name": "Hollywood Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Hollywood Theatre in Portland",
+      "price": 15,
+      "latitude": 45.53549,
+      "longitude": -122.620627,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-493-1128",
+        "website": "https://hollywoodtheatre.org/"
+      },
+      "wikidata": "Q5882974"
+    },
+    {
+      "name": "Hawthorne Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Hawthorne Theatre in Portland",
+      "price": 50,
+      "latitude": 45.511806,
+      "longitude": -122.623146,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://hawthornetheatre.com/"
+      },
+      "wikidata": "Q47171812"
+    },
+    {
+      "name": "Laurelhurst Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Laurelhurst Theater in Portland",
+      "price": 15,
+      "latitude": 45.523238,
+      "longitude": -122.637514,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-232-5511",
+        "website": "https://www.laurelhursttheater.com/"
+      },
+      "wikidata": "Q6500075"
+    },
+    {
+      "name": "Kaul Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Kaul Auditorium in Portland",
+      "price": 50,
+      "latitude": 45.481276,
+      "longitude": -122.633331,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Wonder Ballroom",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Wonder Ballroom in Portland",
+      "price": 50,
+      "latitude": 45.540682,
+      "longitude": -122.663501,
+      "accessibility": "not_specified",
+      "wikidata": "Q8031732"
+    },
+    {
+      "name": "Bridgeport Village Stadium 18 and IMAX",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Bridgeport Village Stadium 18 and IMAX in Portland",
+      "price": 15,
+      "latitude": 45.397495,
+      "longitude": -122.752152,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.regmovies.com/"
+      },
+      "opening_hours": "\"depends on movie showtimes\"",
+      "wikidata": "Q43201129"
+    },
+    {
+      "name": "Saint Johns Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Saint Johns Cinema in Portland",
+      "price": 15,
+      "latitude": 45.590587,
+      "longitude": -122.755658,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.stjohnscinema.com/"
+      },
+      "wikidata": "Q16900580"
+    },
+    {
+      "name": "Refuge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Refuge in Portland",
+      "price": 25,
+      "latitude": 45.515559,
+      "longitude": -122.664493,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.refugepdx.com/"
+      }
+    },
+    {
+      "name": "Artists Repertory Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Artists Repertory Theatre in Portland",
+      "price": 50,
+      "latitude": 45.521703,
+      "longitude": -122.687545,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.artistsrep.org/"
+      }
+    },
+    {
+      "name": "Trio Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Trio Club in Portland",
+      "price": 25,
+      "latitude": 45.523156,
+      "longitude": -122.656348,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-234-5003",
+        "website": "https://www.triokaraoke.com/"
+      },
+      "opening_hours": "Mo-Fr 00:00-02:30,11:00-24:00; Sa-Su 00:00-02:30,17:00-24:00"
+    },
+    {
+      "name": "Century 16",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Century 16 in Portland",
+      "price": 15,
+      "latitude": 45.493284,
+      "longitude": -122.574433,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-772-1111",
+        "website": "https://www.cinemark.com/theatres/or-portland/cinemark-century-eastport-plaza-16"
+      },
+      "wikidata": "Q43199618"
+    },
+    {
+      "name": "Portland Venue 60",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 60 in Portland",
+      "price": 50,
+      "latitude": 45.508127,
+      "longitude": -122.712836,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Aladdin Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Aladdin Theater in Portland",
+      "price": 50,
+      "latitude": 45.500715,
+      "longitude": -122.654548,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.aladdin-theater.com/"
+      },
+      "wikidata": "Q4705497"
+    },
+    {
+      "name": "Arlene Schnitzer Concert Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Arlene Schnitzer Concert Hall in Portland",
+      "price": 50,
+      "latitude": 45.517157,
+      "longitude": -122.68152,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portland5.com/"
+      },
+      "wikidata": "Q4792174"
+    },
+    {
+      "name": "Portland Center Stage at The Armory",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Center Stage at The Armory in Portland",
+      "price": 50,
+      "latitude": 45.524179,
+      "longitude": -122.681669,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-503-445-3700",
+        "website": "https://www.pcs.org/"
+      },
+      "wikidata": "Q5453749"
+    },
+    {
+      "name": "Crystal Ballroom",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Crystal Ballroom in Portland",
+      "price": 50,
+      "latitude": 45.522712,
+      "longitude": -122.684821,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.mcmenamins.com/"
+      },
+      "wikidata": "Q5191122"
+    },
+    {
+      "name": "Mago Hunt Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Mago Hunt Center in Portland",
+      "price": 50,
+      "latitude": 45.573305,
+      "longitude": -122.72812,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Buckley Center Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Buckley Center Auditorium in Portland",
+      "price": 50,
+      "latitude": 45.572306,
+      "longitude": -122.726112,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Opera",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Opera in Portland",
+      "price": 50,
+      "latitude": 45.506188,
+      "longitude": -122.664061,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portlandopera.org/"
+      }
+    },
+    {
+      "name": "Mission Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Mission Theater in Portland",
+      "price": 15,
+      "latitude": 45.526202,
+      "longitude": -122.688132,
+      "accessibility": "not_specified",
+      "wikidata": "Q6878768"
+    },
+    {
+      "name": "Roseland Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Roseland Theater in Portland",
+      "price": 50,
+      "latitude": 45.523322,
+      "longitude": -122.676141,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-971-230-0033",
+        "website": "https://www.roselandpdx.com/",
+        "email": "info@roselandpdx.com"
+      },
+      "wikidata": "Q16899444"
+    },
+    {
+      "name": "Star Theater Portland",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Star Theater Portland in Portland",
+      "price": 50,
+      "latitude": 45.52338,
+      "longitude": -122.67676,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-248-4700",
+        "website": "https://www.startheaterportland.com/",
+        "email": "dantesbooking@qwest.net"
+      },
+      "wikidata": "Q7600934"
+    },
+    {
+      "name": "Badlands Portland",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Badlands Portland in Portland",
+      "price": 25,
+      "latitude": 45.523989,
+      "longitude": -122.67718,
+      "accessibility": "not_specified",
+      "contact": {
+        "email": "badlandsportland@gmail.com"
+      }
+    },
+    {
+      "name": "5th Avenue Cinemas",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "5th Avenue Cinemas in Portland",
+      "price": 15,
+      "latitude": 45.510001,
+      "longitude": -122.682776,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.5thavecinema.com/"
+      },
+      "wikidata": "Q16205135"
+    },
+    {
+      "name": "Tomorrow Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Tomorrow Theater in Portland",
+      "price": 15,
+      "latitude": 45.504612,
+      "longitude": -122.627612,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-221-1156",
+        "website": "https://tomorrowtheater.org"
+      },
+      "wikidata": "Q18749129"
+    },
+    {
+      "name": "Clinton Street Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Clinton Street Theater in Portland",
+      "price": 15,
+      "latitude": 45.503162,
+      "longitude": -122.639995,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-897-0744",
+        "website": "https://cstpdx.com/"
+      },
+      "wikidata": "Q5134235"
+    },
+    {
+      "name": "Imago Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Imago Theatre in Portland",
+      "price": 50,
+      "latitude": 45.522583,
+      "longitude": -122.657994,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-231-9581",
+        "website": "https://www.imagotheatre.com/"
+      }
+    },
+    {
+      "name": "Portland Venue 76",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 76 in Portland",
+      "price": 50,
+      "latitude": 45.508334,
+      "longitude": -122.71254,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "St. Johns Theater & Pub",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "St. Johns Theater & Pub in Portland",
+      "price": 15,
+      "latitude": 45.588602,
+      "longitude": -122.751575,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-283-8520",
+        "website": "https://www.mcmenamins.com/"
+      },
+      "opening_hours": "Mo-Su 11:00-23:00; Fr,Sa 11:00-24:00",
+      "wikidata": "Q6971283"
+    },
+    {
+      "name": "Studio 503",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Studio 503 in Portland",
+      "price": 25,
+      "latitude": 45.485913,
+      "longitude": -122.746184,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.studio503.org/"
+      }
+    },
+    {
+      "name": "Mississippi Studios",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Mississippi Studios in Portland",
+      "price": 25,
+      "latitude": 45.551446,
+      "longitude": -122.675851,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.mississippistudios.com/"
+      }
+    },
+    {
+      "name": "Living Room Theaters",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Living Room Theaters in Portland",
+      "price": 15,
+      "latitude": 45.522328,
+      "longitude": -122.681408,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://pdx.livingroomtheaters.com/"
+      },
+      "wikidata": "Q81640368"
+    },
+    {
+      "name": "Academy Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Academy Theater in Portland",
+      "price": 15,
+      "latitude": 45.518946,
+      "longitude": -122.582924,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-252-0500",
+        "website": "https://www.academytheaterpdx.com/"
+      },
+      "wikidata": "Q43200901"
+    },
+    {
+      "name": "Keller Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Keller Auditorium in Portland",
+      "price": 50,
+      "latitude": 45.512474,
+      "longitude": -122.678152,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.portland5.com/"
+      },
+      "wikidata": "Q6385671",
+      "wikimedia_commons": "File:Keller_Auditorium.JPG"
+    },
+    {
+      "name": "Broadway Rose Theater Company",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Broadway Rose Theater Company in Portland",
+      "price": 50,
+      "latitude": 45.426564,
+      "longitude": -122.781238,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Aura Nightclub & Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Aura Nightclub & Lounge in Portland",
+      "price": 25,
+      "latitude": 45.441004,
+      "longitude": -122.748025,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Playhouse",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Playhouse in Portland",
+      "price": 50,
+      "latitude": 45.55527,
+      "longitude": -122.659351,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://portlandplayhouse.org/"
+      }
+    },
+    {
+      "name": "Alberta Rose Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Alberta Rose Theatre in Portland",
+      "price": 50,
+      "latitude": 45.558837,
+      "longitude": -122.634568,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.albertarosetheatre.com/"
+      },
+      "wikidata": "Q26821746"
+    },
+    {
+      "name": "Portland Venue 87",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 87 in Portland",
+      "price": 50,
+      "latitude": 45.626741,
+      "longitude": -122.67495,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Chapel Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Chapel Theatre in Portland",
+      "price": 50,
+      "latitude": 45.446865,
+      "longitude": -122.620718,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-956-3378",
+        "website": "https://chapeltheatremilwaukie.com/"
+      }
+    },
+    {
+      "name": "The Showdown",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "The Showdown in Portland",
+      "price": 25,
+      "latitude": 45.501044,
+      "longitude": -122.65283,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.showdownpdx.com/"
+      }
+    },
+    {
+      "name": "Kiggins Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Kiggins Theatre in Portland",
+      "price": 15,
+      "latitude": 45.629286,
+      "longitude": -122.671296,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-360-816-0352",
+        "website": "http://www.kigginstheatre.net/"
+      },
+      "wikidata": "Q6405943"
+    },
+    {
+      "name": "Bagdad",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Bagdad in Portland",
+      "price": 15,
+      "latitude": 45.511779,
+      "longitude": -122.625474,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-249-7474",
+        "website": "https://www.mcmenamins.com/"
+      },
+      "wikidata": "Q4841513"
+    },
+    {
+      "name": "45 East",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "45 East in Portland",
+      "price": 25,
+      "latitude": 45.520512,
+      "longitude": -122.66311,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Club 205 Tavern",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Club 205 Tavern in Portland",
+      "price": 25,
+      "latitude": 45.519242,
+      "longitude": -122.561393,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-256-0527",
+        "website": "https://www.club205pdx.com"
+      }
+    },
+    {
+      "name": "Wunderland",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Wunderland in Portland",
+      "price": 15,
+      "latitude": 45.44302,
+      "longitude": -122.641422,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-653-2222",
+        "website": "https://www.wunderlandgames.com/"
+      },
+      "opening_hours": "Mo-Su 12:00-23:00; Fr 12:00-24:00; Sa 11:00-24:00",
+      "wikidata": "Q43200542"
+    },
+    {
+      "name": "Bob White Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Bob White Theatre in Portland",
+      "price": 50,
+      "latitude": 45.489731,
+      "longitude": -122.59622,
+      "accessibility": "not_specified",
+      "wikidata": "Q43200856"
+    },
+    {
+      "name": "Back Door Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Back Door Theater in Portland",
+      "price": 50,
+      "latitude": 45.512341,
+      "longitude": -122.617835,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.fusetheatreensemble.com/"
+      }
+    },
+    {
+      "name": "Cinema 21",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cinema 21 in Portland",
+      "price": 15,
+      "latitude": 45.527245,
+      "longitude": -122.694175,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-223-4515",
+        "website": "https://www.cinema21.com/"
+      },
+      "opening_hours": "\"Based on showtimes\"",
+      "wikidata": "Q18749517"
+    },
+    {
+      "name": "Cinetopia - Mill Plain 8",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cinetopia - Mill Plain 8 in Portland",
+      "price": 15,
+      "latitude": 45.616565,
+      "longitude": -122.550569,
+      "accessibility": "not_specified",
+      "opening_hours": "PH,Mo-Su 14:00-23:00",
+      "wikidata": "Q43307032"
+    },
+    {
+      "name": "Joy Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Joy Cinema in Portland",
+      "price": 15,
+      "latitude": 45.434013,
+      "longitude": -122.765937,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://thejoycinema.com/"
+      },
+      "wikidata": "Q43199641"
+    },
+    {
+      "name": "Helium Comedy Club",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Helium Comedy Club in Portland",
+      "price": 50,
+      "latitude": 45.511933,
+      "longitude": -122.656432,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-888-643-8669",
+        "website": "https://portland.heliumcomedy.com/"
+      }
+    },
+    {
+      "name": "Curious Comedy Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Curious Comedy Theater in Portland",
+      "price": 50,
+      "latitude": 45.560981,
+      "longitude": -122.661809,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.curiouscomedy.org/"
+      }
+    },
+    {
+      "name": "Studio One Theaters",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Studio One Theaters in Portland",
+      "price": 15,
+      "latitude": 45.498193,
+      "longitude": -122.621362,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://studioonetheaters.com/"
+      },
+      "wikidata": "Q78816858"
+    },
+    {
+      "name": "Echo Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Echo Theater in Portland",
+      "price": 50,
+      "latitude": 45.511744,
+      "longitude": -122.626067,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.echotheaterpdx.org/"
+      },
+      "wikidata": "Q43200946"
+    },
+    {
+      "name": "Sellwood Playhouse",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Sellwood Playhouse in Portland",
+      "price": 50,
+      "latitude": 45.465191,
+      "longitude": -122.656736,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-490-5975",
+        "website": "http://sellwoodplayers.com/"
+      }
+    },
+    {
+      "name": "Portland Venue 105",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 105 in Portland",
+      "price": 50,
+      "latitude": 45.569831,
+      "longitude": -122.636839,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 106",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 106 in Portland",
+      "price": 50,
+      "latitude": 45.539853,
+      "longitude": -122.652642,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Moreland Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Moreland Theater in Portland",
+      "price": 15,
+      "latitude": 45.474344,
+      "longitude": -122.648502,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-503-236-5257",
+        "website": "https://morelandtheater.com/"
+      },
+      "opening_hours": "\"Movie theatre, open by feature\"",
+      "wikidata": "Q17022703"
+    },
+    {
+      "name": "Regal Division Street Stadium 13",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Division Street Stadium 13 in Portland",
+      "price": 15,
+      "latitude": 45.505799,
+      "longitude": -122.492057,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-844-462-7342",
+        "website": "https://www.regmovies.com/theatres/regal-division-street/0851"
+      },
+      "wikidata": "Q43200713"
+    },
+    {
+      "name": "Portland Venue 109",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 109 in Portland",
+      "price": 50,
+      "latitude": 45.554475,
+      "longitude": -122.824024,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "McGuire Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "McGuire Auditorium in Portland",
+      "price": 50,
+      "latitude": 45.506219,
+      "longitude": -122.59326,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Oak Grove 8 Cinemas",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Oak Grove 8 Cinemas in Portland",
+      "price": 15,
+      "latitude": 45.407096,
+      "longitude": -122.623161,
+      "accessibility": "not_specified",
+      "wikidata": "Q43200913"
+    },
+    {
+      "name": "Century Theatres",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Century Theatres in Portland",
+      "price": 15,
+      "latitude": 45.436947,
+      "longitude": -122.573671,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-503-654-1498",
+        "website": "https://www.cinemark.com/theatres/or-clackamas/cinemark-clackamas-town-center-and-xd"
+      },
+      "wikidata": "Q43200725"
+    },
+    {
+      "name": "Portland Venue 113",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 113 in Portland",
+      "price": 50,
+      "latitude": 45.519742,
+      "longitude": -122.705221,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 114",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 114 in Portland",
+      "price": 50,
+      "latitude": 45.490692,
+      "longitude": -122.807138,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 115",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 115 in Portland",
+      "price": 50,
+      "latitude": 45.448496,
+      "longitude": -122.80667,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 116",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 116 in Portland",
+      "price": 50,
+      "latitude": 45.540222,
+      "longitude": -122.797514,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Siren Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Siren Theater in Portland",
+      "price": 50,
+      "latitude": 45.551103,
+      "longitude": -122.675829,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 118",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 118 in Portland",
+      "price": 50,
+      "latitude": 45.52839,
+      "longitude": -122.820255,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 119",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 119 in Portland",
+      "price": 50,
+      "latitude": 45.450671,
+      "longitude": -122.807044,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 120",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 120 in Portland",
+      "price": 50,
+      "latitude": 45.523277,
+      "longitude": -122.798491,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 121",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 121 in Portland",
+      "price": 50,
+      "latitude": 45.536851,
+      "longitude": -122.782058,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Stanford Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Stanford Theater in Portland",
+      "price": 50,
+      "latitude": 45.510537,
+      "longitude": -122.828855,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Mt. Tabor Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Mt. Tabor Amphitheatre in Portland",
+      "price": 50,
+      "latitude": 45.515802,
+      "longitude": -122.596761,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Portland Venue 124",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 124 in Portland",
+      "price": 50,
+      "latitude": 45.50853,
+      "longitude": -122.711296,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Deb Fennell Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Deb Fennell Auditorium in Portland",
+      "price": 50,
+      "latitude": 45.403696,
+      "longitude": -122.767978,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Magenta Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Magenta Theater in Portland",
+      "price": 50,
+      "latitude": 45.629995,
+      "longitude": -122.671898,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.magentatheater.com/"
+      }
+    },
+    {
+      "name": "Portland Venue 127",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Portland Venue 127 in Portland",
+      "price": 50,
+      "latitude": 45.527737,
+      "longitude": -122.653015,
+      "accessibility": "not_specified"
+    }
+  ],
+  "San Francisco": [
+    {
+      "name": "Opera Plaza Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Opera Plaza Cinema in San Francisco",
+      "price": 15,
+      "latitude": 37.781376,
+      "longitude": -122.421561,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 771 0183",
+        "website": "https://www.landmarktheatres.com/san-francisco/opera-plaza-cinema"
+      },
+      "wikidata": "Q44634616"
+    },
+    {
+      "name": "Starlite Room",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Starlite Room in San Francisco",
+      "price": 25,
+      "latitude": 37.78896,
+      "longitude": -122.408314,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 3958595",
+        "website": "https://lizziesstarlightsf.com/"
+      },
+      "opening_hours": "closed"
+    },
+    {
+      "name": "AMC Loews Metreon 16",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Loews Metreon 16 in San Francisco",
+      "price": 15,
+      "latitude": 37.784464,
+      "longitude": -122.403707,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.amctheatres.com/movie-theatres/san-francisco/amc-metreon-16"
+      },
+      "wikidata": "Q44633506"
+    },
+    {
+      "name": "Stern Grove",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Stern Grove in San Francisco",
+      "price": 25,
+      "latitude": 37.735832,
+      "longitude": -122.479493,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Fillmore",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Fillmore in San Francisco",
+      "price": 50,
+      "latitude": 37.784084,
+      "longitude": -122.433171,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1-415-346-3000",
+        "website": "http://thefillmore.com"
+      },
+      "wikidata": "Q1348537"
+    },
+    {
+      "name": "Diego Rivera Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Diego Rivera Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.727545,
+      "longitude": -122.451019,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "San Francisco Playhouse",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Playhouse in San Francisco",
+      "price": 50,
+      "latitude": 37.788315,
+      "longitude": -122.409348,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Endup",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Endup in San Francisco",
+      "price": 25,
+      "latitude": 37.777274,
+      "longitude": -122.403841,
+      "accessibility": "not_specified",
+      "wikidata": "Q7732041"
+    },
+    {
+      "name": "AMC Dine-In Kabuki 8",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Dine-In Kabuki 8 in San Francisco",
+      "price": 15,
+      "latitude": 37.785097,
+      "longitude": -122.432587,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "415-346-3243",
+        "website": "https://www.amctheatres.com/movie-theatres/san-francisco/amc-kabuki-8"
+      },
+      "wikidata": "Q7639174"
+    },
+    {
+      "name": "Fox Oakland Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Fox Oakland Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.807994,
+      "longitude": -122.270158,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1 (510) 302-2250",
+        "website": "https://www.thefoxoakland.com/"
+      }
+    },
+    {
+      "name": "Pilsner Inn",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Pilsner Inn in San Francisco",
+      "price": 25,
+      "latitude": 37.767136,
+      "longitude": -122.428795,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "(415) 621-7058",
+        "website": "https://www.pilsnerinn.com/"
+      }
+    },
+    {
+      "name": "Marine's Memorial Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Marine's Memorial Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.788892,
+      "longitude": -122.410529,
+      "accessibility": "not_specified",
+      "wikidata": "Q6764384"
+    },
+    {
+      "name": "August Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "August Hall in San Francisco",
+      "price": 50,
+      "latitude": 37.787588,
+      "longitude": -122.409787,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 8725745",
+        "website": "https://www.augusthallsf.com/",
+        "email": "boxoffice@augusthallsf.com"
+      }
+    },
+    {
+      "name": "Yoshi's Oakland",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Japanese Restaurant and jazz club.",
+      "price": 25,
+      "latitude": 37.796226,
+      "longitude": -122.278595,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.yoshis.com/"
+      },
+      "wikidata": "Q2601061"
+    },
+    {
+      "name": "DecoDance Bar",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "DecoDance Bar in San Francisco",
+      "price": 25,
+      "latitude": 37.787552,
+      "longitude": -122.419956,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 5462233",
+        "website": "https://www.decodancesf.com/",
+        "email": "info@decodancesf.com"
+      },
+      "opening_hours": "Tu-We 17:00-23:00; Th 17:00-24:00; Fr-Sa 17:00-25:30; Su 21:00-25:30; Mo off"
+    },
+    {
+      "name": "Providence",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Providence in San Francisco",
+      "price": 25,
+      "latitude": 37.789508,
+      "longitude": -122.420617,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 3660472",
+        "website": "https://providencesf.com"
+      },
+      "opening_hours": "Mo-Fr 17:00-26:00; Sa,Su 14:00-26:00"
+    },
+    {
+      "name": "Video Wave",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Video Wave in San Francisco",
+      "price": 50,
+      "latitude": 37.750057,
+      "longitude": -122.433873,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Zanzi",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Zanzi in San Francisco",
+      "price": 25,
+      "latitude": 37.811312,
+      "longitude": -122.266287,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.zanzioakland.com/"
+      }
+    },
+    {
+      "name": "The Valencia Room",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Valencia Room in San Francisco",
+      "price": 25,
+      "latitude": 37.762546,
+      "longitude": -122.421537,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 5988862",
+        "website": "https://www.thevalenciaroom.com/",
+        "email": "info@thevalenciaroom.com"
+      },
+      "opening_hours": "Mo-Fr 17:00-26:00; Sa-Su 14:00-26:00"
+    },
+    {
+      "name": "Gateway Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Gateway Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.79677,
+      "longitude": -122.400018,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://42ndstmoon.org/gateway/"
+      },
+      "wikidata": "Q44634039"
+    },
+    {
+      "name": "The Alcove Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Alcove Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.7875,
+      "longitude": -122.409773,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Tiburon Playhouse",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Tiburon Playhouse in San Francisco",
+      "price": 15,
+      "latitude": 37.87331,
+      "longitude": -122.456854,
+      "accessibility": "not_specified",
+      "wikidata": "Q44884824"
+    },
+    {
+      "name": "Cat Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Cat Club in San Francisco",
+      "price": 25,
+      "latitude": 37.775329,
+      "longitude": -122.409896,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415-703-8965",
+        "website": "https://www.sfcatclub.com",
+        "email": "info@sfcatclub.com"
+      }
+    },
+    {
+      "name": "Balboa Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Balboa Theatre in San Francisco",
+      "price": 15,
+      "latitude": 37.77581,
+      "longitude": -122.497965,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 (415) 221-8184",
+        "website": "https://www.cinemasf.com/balboa/"
+      },
+      "wikidata": "Q44633563"
+    },
+    {
+      "name": "Love + Propaganda",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Love + Propaganda in San Francisco",
+      "price": 25,
+      "latitude": 37.788933,
+      "longitude": -122.406661,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.loveandpropaganda.com/",
+        "email": "info@loveandpropaganda.com"
+      },
+      "opening_hours": "Fr,Sa 21:30-26:00 || \"Open during special events\""
+    },
+    {
+      "name": "Roxie",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Roxie in San Francisco",
+      "price": 15,
+      "latitude": 37.764757,
+      "longitude": -122.422363,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1 415 8631087",
+        "website": "https://www.roxie.com/",
+        "email": "info@roxie.com"
+      },
+      "wikidata": "Q3445703"
+    },
+    {
+      "name": "Four Star",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Four Star in San Francisco",
+      "price": 15,
+      "latitude": 37.782271,
+      "longitude": -122.482927,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.4-star-movies.com/"
+      },
+      "wikidata": "Q44633454"
+    },
+    {
+      "name": "Marina Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Marina Theatre in San Francisco",
+      "price": 15,
+      "latitude": 37.800376,
+      "longitude": -122.43855,
+      "accessibility": "not_specified",
+      "wikidata": "Q44634344"
+    },
+    {
+      "name": "Cobb's Comedy Club",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Cobb's Comedy Club in San Francisco",
+      "price": 50,
+      "latitude": 37.802923,
+      "longitude": -122.414203,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.cobbscomedy.com/"
+      },
+      "wikidata": "Q5138737"
+    },
+    {
+      "name": "Mezzanine",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Mezzanine in San Francisco",
+      "price": 25,
+      "latitude": 37.782532,
+      "longitude": -122.408065,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "415 625 8880",
+        "website": "https://mezzaninesf.com/"
+      }
+    },
+    {
+      "name": "Paname",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Paname in San Francisco",
+      "price": 25,
+      "latitude": 37.797828,
+      "longitude": -122.405942,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Rouge Night Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Rouge Night Club in San Francisco",
+      "price": 25,
+      "latitude": 37.796061,
+      "longitude": -122.422028,
+      "accessibility": "not_specified",
+      "contact": {
+        "email": "VIP@RougeSF.com"
+      },
+      "opening_hours": "Mo, We, Th 11:30-23:30; Tu 11:30-00:00; Fr 11:30-02:00; Sa 10:30-02:00; Su 10:30-22:00"
+    },
+    {
+      "name": "Presidio Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Presidio Theater in San Francisco",
+      "price": 15,
+      "latitude": 37.800321,
+      "longitude": -122.441971,
+      "accessibility": "not_specified",
+      "wikidata": "Q42897046"
+    },
+    {
+      "name": "Rhoda Goldman Concert Meadow",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Rhoda Goldman Concert Meadow in San Francisco",
+      "price": 50,
+      "latitude": 37.736064,
+      "longitude": -122.479466,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Un-Scripted Theater Company\u00ae",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Un-Scripted Theater Company\u00ae in San Francisco",
+      "price": 50,
+      "latitude": 37.789045,
+      "longitude": -122.409136,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "415 322 8738",
+        "website": "https://www.un-scripted.com/"
+      }
+    },
+    {
+      "name": "BATS Improv",
+      "type": "indoor",
+      "category": "theater",
+      "description": "BATS Improv in San Francisco",
+      "price": 50,
+      "latitude": 37.806514,
+      "longitude": -122.43177,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "415 474 6776",
+        "website": "https://www.improv.org/"
+      }
+    },
+    {
+      "name": "Storybook Puppet Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Storybook Puppet Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.809444,
+      "longitude": -122.260682,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Regency Ballroom",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Regency Ballroom in San Francisco",
+      "price": 25,
+      "latitude": 37.787818,
+      "longitude": -122.421576,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.theregencyballroom.com/"
+      }
+    },
+    {
+      "name": "Encore Karaoke",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Encore Karaoke in San Francisco",
+      "price": 25,
+      "latitude": 37.790855,
+      "longitude": -122.420037,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Temple Night Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Temple Night Club in San Francisco",
+      "price": 25,
+      "latitude": 37.787853,
+      "longitude": -122.397177,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 (415) 696-9512",
+        "website": "https://www.templesf.com/",
+        "email": "info@templesf.com"
+      }
+    },
+    {
+      "name": "The Marsh",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Marsh in San Francisco",
+      "price": 50,
+      "latitude": 37.755722,
+      "longitude": -122.421166,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Ceremony",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Ceremony in San Francisco",
+      "price": 25,
+      "latitude": 37.80327,
+      "longitude": -122.271607,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.ticketweb.com/venue/ceremony-oakland-ca/508875"
+      }
+    },
+    {
+      "name": "Wildlife Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Wildlife Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.73375,
+      "longitude": -122.503295,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Sound Room",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "The Sound Room in San Francisco",
+      "price": 25,
+      "latitude": 37.810855,
+      "longitude": -122.26735,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Pan Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Pan Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.80502,
+      "longitude": -122.271281,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.pantheater.com/"
+      }
+    },
+    {
+      "name": "The Magic Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Magic Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.8069,
+      "longitude": -122.430782,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Southside Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Southside Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.80702,
+      "longitude": -122.430854,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Young Performers Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Young Performers Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.806572,
+      "longitude": -122.431342,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Lucita Niteclub",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Lucita Niteclub in San Francisco",
+      "price": 25,
+      "latitude": 37.744895,
+      "longitude": -122.420173,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Club 26 Mix",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Club 26 Mix in San Francisco",
+      "price": 25,
+      "latitude": 37.748714,
+      "longitude": -122.418304,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Lake Merritt Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Lake Merritt Amphitheater in San Francisco",
+      "price": 50,
+      "latitude": 37.799045,
+      "longitude": -122.26068,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Boom Boom Room",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Boom Boom Room in San Francisco",
+      "price": 25,
+      "latitude": 37.784602,
+      "longitude": -122.433137,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://boomboomroom.com/"
+      }
+    },
+    {
+      "name": "Calvin Simmons Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Calvin Simmons Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.797781,
+      "longitude": -122.262122,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://hjk-center-for-the-arts.squarespace.com/the-calvin"
+      }
+    },
+    {
+      "name": "San Francisco Venue 54",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 54 in San Francisco",
+      "price": 50,
+      "latitude": 37.863253,
+      "longitude": -122.315089,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "7D Experience",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "7D Experience in San Francisco",
+      "price": 15,
+      "latitude": 37.810754,
+      "longitude": -122.410373,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://theflyer-sanfrancisco.com/7d-experience/"
+      }
+    },
+    {
+      "name": "Brick and Mortar",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Brick and Mortar in San Francisco",
+      "price": 50,
+      "latitude": 37.769686,
+      "longitude": -122.420303,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 8171479",
+        "website": "https://brickandmortarmusic.com/"
+      }
+    },
+    {
+      "name": "Dotha\u2019s Juke Joint",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Dotha\u2019s Juke Joint in San Francisco",
+      "price": 25,
+      "latitude": 37.795722,
+      "longitude": -122.275978,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.eandjbbq.com/pages/events"
+      }
+    },
+    {
+      "name": "The New Parish",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The New Parish in San Francisco",
+      "price": 50,
+      "latitude": 37.807676,
+      "longitude": -122.272581,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://thenewparish.com/"
+      }
+    },
+    {
+      "name": "PianoFight",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "PianoFight in San Francisco",
+      "price": 25,
+      "latitude": 37.78375,
+      "longitude": -122.410722,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Peacock Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Peacock Lounge in San Francisco",
+      "price": 25,
+      "latitude": 37.772106,
+      "longitude": -122.431389,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Underground SF",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Underground SF in San Francisco",
+      "price": 25,
+      "latitude": 37.772353,
+      "longitude": -122.429318,
+      "accessibility": "wheelchair_friendly"
+    },
+    {
+      "name": "SF Citadel",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "SF Citadel in San Francisco",
+      "price": 25,
+      "latitude": 37.78413,
+      "longitude": -122.41043,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Potrero Stage",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Potrero Stage in San Francisco",
+      "price": 50,
+      "latitude": 37.762009,
+      "longitude": -122.399104,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Slate",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Slate in San Francisco",
+      "price": 25,
+      "latitude": 37.765025,
+      "longitude": -122.418114,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Salesforce Park Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Salesforce Park Amphitheater in San Francisco",
+      "price": 50,
+      "latitude": 37.787955,
+      "longitude": -122.398312,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Club Malibu",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Club Malibu in San Francisco",
+      "price": 25,
+      "latitude": 37.742232,
+      "longitude": -122.421844,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Brava Theater Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Brava Theater Center in San Francisco",
+      "price": 50,
+      "latitude": 37.752753,
+      "longitude": -122.407833,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.brava.org"
+      },
+      "wikidata": "Q44633644"
+    },
+    {
+      "name": "Complex Oakland",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Complex Oakland in San Francisco",
+      "price": 25,
+      "latitude": 37.804284,
+      "longitude": -122.270269,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "510-394-2780",
+        "website": "https://complexoakland.com/"
+      },
+      "opening_hours": "16:00-02:00"
+    },
+    {
+      "name": "James Moore Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "James Moore Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.79809,
+      "longitude": -122.262682,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Buriel Clay Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Buriel Clay Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.778392,
+      "longitude": -122.42928,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Rabbit Hole Theater Company",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Rabbit Hole Theater Company in San Francisco",
+      "price": 50,
+      "latitude": 37.751054,
+      "longitude": -122.436461,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://therabbitholesf.com/"
+      }
+    },
+    {
+      "name": "Audium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Audium in San Francisco",
+      "price": 50,
+      "latitude": 37.788422,
+      "longitude": -122.424204,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Marion E. Greene Black Box Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Marion E. Greene Black Box Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.808344,
+      "longitude": -122.270568,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Presidio Dance Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Presidio Dance Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.802776,
+      "longitude": -122.451248,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Que Rico",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Que Rico in San Francisco",
+      "price": 25,
+      "latitude": 37.804535,
+      "longitude": -122.269063,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Sound Room",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Sound Room in San Francisco",
+      "price": 50,
+      "latitude": 37.819153,
+      "longitude": -122.261706,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.soundroom.org/"
+      }
+    },
+    {
+      "name": "Blue Shield of California Theater at YBCA",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Blue Shield of California Theater at YBCA in San Francisco",
+      "price": 50,
+      "latitude": 37.785246,
+      "longitude": -122.401154,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Caroline H. Hume Concert Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Caroline H. Hume Concert Hall in San Francisco",
+      "price": 50,
+      "latitude": 37.775708,
+      "longitude": -122.420316,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Sol Joseph Recital Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Sol Joseph Recital Hall in San Francisco",
+      "price": 50,
+      "latitude": 37.775694,
+      "longitude": -122.420439,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Osher Salon",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Osher Salon in San Francisco",
+      "price": 50,
+      "latitude": 37.775677,
+      "longitude": -122.420584,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Decker Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Decker Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.77572,
+      "longitude": -122.420064,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Walker Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Walker Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.77563,
+      "longitude": -122.420043,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Tucker Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Tucker Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.775531,
+      "longitude": -122.420015,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Robert N. Miner Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Robert N. Miner Auditorium in San Francisco",
+      "price": 50,
+      "latitude": 37.776404,
+      "longitude": -122.421694,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Th\u00e9\u00e2tre du LFSF",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Th\u00e9\u00e2tre du LFSF in San Francisco",
+      "price": 50,
+      "latitude": 37.75183,
+      "longitude": -122.47662,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.lelycee.org/theatre"
+      }
+    },
+    {
+      "name": "San Francisco Venue 86",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "San Francisco Venue 86 in San Francisco",
+      "price": 25,
+      "latitude": 37.723083,
+      "longitude": -122.444197,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Apple Cinemas Van Ness",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Apple Cinemas Van Ness in San Francisco",
+      "price": 15,
+      "latitude": 37.784962,
+      "longitude": -122.420949,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.applecinemas.com/"
+      }
+    },
+    {
+      "name": "The Marrakech Magic Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Marrakech Magic Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.785862,
+      "longitude": -122.411751,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 7946893",
+        "website": "https://www.sanfranciscomagictheater.com/"
+      }
+    },
+    {
+      "name": "The Flyer",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Flyer in San Francisco",
+      "price": 50,
+      "latitude": 37.808747,
+      "longitude": -122.409845,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Cut Outdoor Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "The Cut Outdoor Cinema in San Francisco",
+      "price": 15,
+      "latitude": 37.789931,
+      "longitude": -122.392908,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Palace of Fine Arts Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Palace of Fine Arts Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.802334,
+      "longitude": -122.449226,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1 415 855 1607",
+        "website": "https://www.palaceoffinearts.org/",
+        "email": "info@palaceoffinearts.org"
+      }
+    },
+    {
+      "name": "AmphitheaterLAB",
+      "type": "indoor",
+      "category": "theater",
+      "description": "AmphitheaterLAB in San Francisco",
+      "price": 50,
+      "latitude": 37.863575,
+      "longitude": -122.298091,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://thelabberkeley.com/amenities#amphitheaterlab"
+      }
+    },
+    {
+      "name": "Chorus Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Chorus Hall in San Francisco",
+      "price": 50,
+      "latitude": 37.773184,
+      "longitude": -122.419312,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.chorushall.com/"
+      }
+    },
+    {
+      "name": "Eclectic Box",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Eclectic Box in San Francisco",
+      "price": 50,
+      "latitude": 37.7657,
+      "longitude": -122.422139,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.eclecticboxsf.com/"
+      }
+    },
+    {
+      "name": "Regal Stonestown Galleria",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Stonestown Galleria in San Francisco",
+      "price": 15,
+      "latitude": 37.729283,
+      "longitude": -122.476595,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Mutiny Radio.fm",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Mutiny Radio.fm in San Francisco",
+      "price": 50,
+      "latitude": 37.757427,
+      "longitude": -122.410388,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "F8",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "F8 in San Francisco",
+      "price": 25,
+      "latitude": 37.775281,
+      "longitude": -122.409955,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.feightsf.com/"
+      }
+    },
+    {
+      "name": "Comedy Oakland",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Comedy Oakland in San Francisco",
+      "price": 50,
+      "latitude": 37.80181,
+      "longitude": -122.274116,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.comedyoakland.com"
+      }
+    },
+    {
+      "name": "All Out Comedy Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "All Out Comedy Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.815261,
+      "longitude": -122.267946,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.alloutcomedytheater.com/"
+      }
+    },
+    {
+      "name": "The Lost Church",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Lost Church in San Francisco",
+      "price": 50,
+      "latitude": 37.803423,
+      "longitude": -122.414373,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://thelostchurch.org/"
+      }
+    },
+    {
+      "name": "Fluid510",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Fluid510 in San Francisco",
+      "price": 25,
+      "latitude": 37.805941,
+      "longitude": -122.269944,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Orpheum Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Orpheum Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.779162,
+      "longitude": -122.414735,
+      "accessibility": "not_specified",
+      "wikidata": "Q7103971"
+    },
+    {
+      "name": "Dawn Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Dawn Club in San Francisco",
+      "price": 25,
+      "latitude": 37.787797,
+      "longitude": -122.402683,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Joe Henderson Lab",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Joe Henderson Lab in San Francisco",
+      "price": 50,
+      "latitude": 37.776534,
+      "longitude": -122.42142,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Smartwater Stage",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Smartwater Stage in San Francisco",
+      "price": 50,
+      "latitude": 37.810797,
+      "longitude": -122.410716,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "CounterPulse",
+      "type": "indoor",
+      "category": "theater",
+      "description": "CounterPulse in San Francisco",
+      "price": 50,
+      "latitude": 37.783374,
+      "longitude": -122.41041,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Geoffrey's Inner Circle",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Geoffrey's Inner Circle in San Francisco",
+      "price": 25,
+      "latitude": 37.804115,
+      "longitude": -122.270196,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://geoffreyslive.com/"
+      }
+    },
+    {
+      "name": "Cutting Ball Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Cutting Ball Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.784722,
+      "longitude": -122.411229,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://cuttingball.com/"
+      }
+    },
+    {
+      "name": "Shelton Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Shelton Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.788917,
+      "longitude": -122.409097,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.sheltontheater.org/"
+      }
+    },
+    {
+      "name": "Endgames Improv",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Endgames Improv in San Francisco",
+      "price": 50,
+      "latitude": 37.749679,
+      "longitude": -122.418032,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Piedmont Piano Company",
+      "type": "indoor",
+      "category": "music_venue",
+      "description": "Piedmont Piano Company in San Francisco",
+      "price": 25,
+      "latitude": 37.807779,
+      "longitude": -122.272118,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://piedmontpiano.com/concerts"
+      }
+    },
+    {
+      "name": "Henry J. Kaiser Center Arena",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Henry J. Kaiser Center Arena in San Francisco",
+      "price": 50,
+      "latitude": 37.797368,
+      "longitude": -122.261056,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://hjk-center-for-the-arts.squarespace.com/arena"
+      }
+    },
+    {
+      "name": "John A. and Cynthia Fry Gunn Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "John A. and Cynthia Fry Gunn Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.78436,
+      "longitude": -122.501021,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Odell Johnson Performing Arts Center",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Odell Johnson Performing Arts Center in San Francisco",
+      "price": 50,
+      "latitude": 37.796517,
+      "longitude": -122.263188,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Bill Graham Civic Auditorium",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Bill Graham Civic Auditorium in San Francisco",
+      "price": 50,
+      "latitude": 37.778055,
+      "longitude": -122.417334,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "http://www.billgrahamcivicauditorium.com/"
+      },
+      "wikidata": "Q4909197"
+    },
+    {
+      "name": "Spreckels Temple of Music",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Spreckels Temple of Music in San Francisco",
+      "price": 50,
+      "latitude": 37.769876,
+      "longitude": -122.468569,
+      "accessibility": "not_specified",
+      "wikidata": "Q110559749",
+      "wikimedia_commons": "File:Golden Gate Park - Spreckels Temple of Music 02.jpg"
+    },
+    {
+      "name": "Presidio Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Presidio Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.798873,
+      "longitude": -122.460547,
+      "accessibility": "not_specified",
+      "wikidata": "Q42897008",
+      "wikimedia_commons": "Category:Presidio Theatre (Presidio of San Francisco)"
+    },
+    {
+      "name": "War Memorial Opera House",
+      "type": "indoor",
+      "category": "theater",
+      "description": "War Memorial Opera House in San Francisco",
+      "price": 50,
+      "latitude": 37.778617,
+      "longitude": -122.420935,
+      "accessibility": "not_specified",
+      "wikidata": "Q2915772"
+    },
+    {
+      "name": "War Memorial Veterans Building Herbst Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "War Memorial Veterans Building Herbst Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.779577,
+      "longitude": -122.421033,
+      "accessibility": "not_specified",
+      "wikidata": "Q5736243"
+    },
+    {
+      "name": "Club Fugazi",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Club Fugazi in San Francisco",
+      "price": 50,
+      "latitude": 37.799645,
+      "longitude": -122.410276,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 2730600",
+        "website": "https://www.clubfugazisf.com/",
+        "email": "info@clubfugaziSF.com"
+      },
+      "wikidata": "Q5136250"
+    },
+    {
+      "name": "The Masonic",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Masonic in San Francisco",
+      "price": 50,
+      "latitude": 37.791178,
+      "longitude": -122.412971,
+      "accessibility": "not_specified",
+      "wikidata": "Q7045580",
+      "wikimedia_commons": "Category:Nob Hill Masonic Center"
+    },
+    {
+      "name": "Alcazar Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Alcazar Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.786885,
+      "longitude": -122.414113,
+      "accessibility": "not_specified",
+      "wikidata": "Q4712986"
+    },
+    {
+      "name": "Sweet's Ballroom",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Sweet's Ballroom in San Francisco",
+      "price": 50,
+      "latitude": 37.808335,
+      "longitude": -122.269119,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Crybaby",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Crybaby in San Francisco",
+      "price": 25,
+      "latitude": 37.808567,
+      "longitude": -122.269489,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://crybaby.live/"
+      }
+    },
+    {
+      "name": "Regal Cinemas 9 Jack London Square",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Regal Cinemas 9 Jack London Square in San Francisco",
+      "price": 15,
+      "latitude": 37.796042,
+      "longitude": -122.277378,
+      "accessibility": "wheelchair_friendly",
+      "wikidata": "Q44874184"
+    },
+    {
+      "name": "Toni Rembe Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Toni Rembe Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.786828,
+      "longitude": -122.410191,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.act-sf.org/"
+      },
+      "wikidata": "Q463781"
+    },
+    {
+      "name": "Curran Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Curran Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.786784,
+      "longitude": -122.410589,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "15-358-1220",
+        "website": "https://www.sfcurran.com/"
+      },
+      "wikidata": "Q5194956"
+    },
+    {
+      "name": "Century 20 Daly City",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Century 20 Daly City in San Francisco",
+      "price": 15,
+      "latitude": 37.702312,
+      "longitude": -122.470284,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.cinemark.com/california-bay-area/century-20-daly-city-and-xd"
+      },
+      "wikidata": "Q44862843"
+    },
+    {
+      "name": "Punch Line Comedy Club",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Punch Line Comedy Club in San Francisco",
+      "price": 50,
+      "latitude": 37.79553,
+      "longitude": -122.40001,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.punchlinecomedyclub.com/"
+      },
+      "wikidata": "Q7259939"
+    },
+    {
+      "name": "DNA Lounge",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "DNA Lounge in San Francisco",
+      "price": 25,
+      "latitude": 37.771086,
+      "longitude": -122.412612,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.dnalounge.com/"
+      },
+      "wikidata": "Q5205728",
+      "wikimedia_commons": "Category:DNA Lounge"
+    },
+    {
+      "name": "Yolo",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Yolo in San Francisco",
+      "price": 25,
+      "latitude": 37.771503,
+      "longitude": -122.413264,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415-757-0703",
+        "website": "https://www.yolonightclub.com/"
+      }
+    },
+    {
+      "name": "Hawthorn",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Hawthorn in San Francisco",
+      "price": 25,
+      "latitude": 37.788133,
+      "longitude": -122.404304,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Calle-11",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Calle-11 in San Francisco",
+      "price": 25,
+      "latitude": 37.771589,
+      "longitude": -122.41402,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Halcyon",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Halcyon in San Francisco",
+      "price": 25,
+      "latitude": 37.771458,
+      "longitude": -122.413918,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://halcyon-sf.com/"
+      }
+    },
+    {
+      "name": "New Parkway Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "New Parkway Theater in San Francisco",
+      "price": 15,
+      "latitude": 37.813954,
+      "longitude": -122.267478,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 510 6587900",
+        "website": "https://www.thenewparkway.com/"
+      },
+      "wikidata": "Q44874098"
+    },
+    {
+      "name": "Rickshaw Stop",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Rickshaw Stop in San Francisco",
+      "price": 25,
+      "latitude": 37.77599,
+      "longitude": -122.420475,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://rickshawstop.com/"
+      }
+    },
+    {
+      "name": "Alamo Drafthouse Cinema",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Alamo Drafthouse Cinema in San Francisco",
+      "price": 15,
+      "latitude": 37.756199,
+      "longitude": -122.419212,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415-549-5959",
+        "website": "https://drafthouse.com/sf/theater/new-mission",
+        "email": "mike.keegan@drafthouse.com"
+      },
+      "wikidata": "Q22078026"
+    },
+    {
+      "name": "The Independent",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Independent in San Francisco",
+      "price": 50,
+      "latitude": 37.775528,
+      "longitude": -122.437641,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "415-771-1421",
+        "website": "http://www.theindependentsf.com/"
+      }
+    },
+    {
+      "name": "Cin\u00e9Arts at the Empire",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Cin\u00e9Arts at the Empire in San Francisco",
+      "price": 15,
+      "latitude": 37.739711,
+      "longitude": -122.466383,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 (415) 661-2539",
+        "website": "https://www.cinemark.com/theatre-detail.aspx?node_id=1621"
+      },
+      "wikidata": "Q44633824"
+    },
+    {
+      "name": "Warfield Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Warfield Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.78267,
+      "longitude": -122.410317,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415-345-0900",
+        "website": "http://thewarfieldtheatre.com/",
+        "email": "info@thewarfieldtheatre.com"
+      },
+      "wikidata": "Q7773549"
+    },
+    {
+      "name": "The Grand",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Grand in San Francisco",
+      "price": 25,
+      "latitude": 37.779093,
+      "longitude": -122.397904,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 636 0029",
+        "website": "https://www.grandnightclub.com/"
+      },
+      "wikidata": "Q7844816"
+    },
+    {
+      "name": "Strand Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Strand Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.779642,
+      "longitude": -122.4129,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.act-sf.org/your-visit/our-venues/the-strand-theater/"
+      },
+      "wikidata": "Q44634949"
+    },
+    {
+      "name": "Monarch",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Monarch in San Francisco",
+      "price": 25,
+      "latitude": 37.780971,
+      "longitude": -122.408334,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.monarchsf.com/",
+        "email": "info@monarchsf.com"
+      }
+    },
+    {
+      "name": "Oasis",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Oasis in San Francisco",
+      "price": 25,
+      "latitude": 37.771915,
+      "longitude": -122.414436,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Nourse Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Nourse Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.776897,
+      "longitude": -122.420962,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.cityarts.net/nourse/"
+      },
+      "wikidata": "Q48797845"
+    },
+    {
+      "name": "Great Star Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The 501c Great Star Theater, the last remaining Chinese theater in any U.S. Chinatown, hosts a variety of performances including Cantonese opera, guzheng, magic, acrobatics, and films, while promoting cultural diversity and supporting emerging artists.",
+      "price": 50,
+      "latitude": 37.796361,
+      "longitude": -122.405804,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1-415-735-4159",
+        "website": "https://greatstartheater.org",
+        "email": "management@GreatStarTheater.org"
+      },
+      "wikidata": "Q44634130",
+      "wikimedia_commons": "Category:Great Star Theater"
+    },
+    {
+      "name": "The Lost Church",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Lost Church in San Francisco",
+      "price": 50,
+      "latitude": 37.765788,
+      "longitude": -122.418467,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.thelostchurch.com/"
+      },
+      "wikidata": "Q5036103"
+    },
+    {
+      "name": "Golden Gate Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Golden Gate Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.782512,
+      "longitude": -122.411101,
+      "accessibility": "wheelchair_friendly",
+      "wikidata": "Q12058772"
+    },
+    {
+      "name": "Great American Music Hall",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Great American Music Hall in San Francisco",
+      "price": 50,
+      "latitude": 37.784798,
+      "longitude": -122.418842,
+      "accessibility": "not_specified",
+      "wikidata": "Q5598638"
+    },
+    {
+      "name": "The Chapel",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "The Chapel in San Francisco",
+      "price": 25,
+      "latitude": 37.760488,
+      "longitude": -122.421201,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.thechapelsf.com/"
+      },
+      "opening_hours": "\"Box office: th and sat 12:30 - 17:30 + nights of shows\""
+    },
+    {
+      "name": "Victoria Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Victoria Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.76488,
+      "longitude": -122.41889,
+      "accessibility": "not_specified",
+      "wikidata": "Q7927081"
+    },
+    {
+      "name": "Public Works",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Public Works in San Francisco",
+      "price": 25,
+      "latitude": 37.768893,
+      "longitude": -122.419265,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://publicsf.com/"
+      }
+    },
+    {
+      "name": "ODC Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "ODC Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.763398,
+      "longitude": -122.416457,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "http://www.odcdance.org/"
+      }
+    },
+    {
+      "name": "Bimbo's 365 Club",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Bimbo's 365 Club in San Francisco",
+      "price": 25,
+      "latitude": 37.803723,
+      "longitude": -122.415572,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "415.474.0365",
+        "website": "https://www.bimbos365club.com/"
+      },
+      "wikidata": "Q4913716"
+    },
+    {
+      "name": "Vogue Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Vogue Theatre in San Francisco",
+      "price": 15,
+      "latitude": 37.788424,
+      "longitude": -122.446722,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "phone": "+1 (415) 346-2228",
+        "website": "https://www.cinemasf.com/vogue/"
+      },
+      "wikidata": "Q44635185"
+    },
+    {
+      "name": "Roccapulco",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Roccapulco in San Francisco",
+      "price": 25,
+      "latitude": 37.74723,
+      "longitude": -122.419281,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 (415) 821-3563",
+        "website": "http://roccapulco.com"
+      }
+    },
+    {
+      "name": "The Midway",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Midway in San Francisco",
+      "price": 50,
+      "latitude": 37.749488,
+      "longitude": -122.386031,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://themidwaysf.com/"
+      }
+    },
+    {
+      "name": "Bayview Opera House Ruth Williams Memorial Theatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Bayview Opera House Ruth Williams Memorial Theatre in San Francisco",
+      "price": 50,
+      "latitude": 37.735129,
+      "longitude": -122.390156,
+      "accessibility": "not_specified",
+      "wikidata": "Q24894286"
+    },
+    {
+      "name": "El Toro Nightclub",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "El Toro Nightclub in San Francisco",
+      "price": 25,
+      "latitude": 37.730696,
+      "longitude": -122.405204,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "The Forum",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Forum in San Francisco",
+      "price": 50,
+      "latitude": 37.805147,
+      "longitude": -122.272116,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Oakland Metro Opera House",
+      "type": "indoor",
+      "category": "nightlife",
+      "description": "Oakland Metro Opera House in San Francisco",
+      "price": 25,
+      "latitude": 37.797057,
+      "longitude": -122.277809,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.oaklandmetro.org/"
+      }
+    },
+    {
+      "name": "San Francisco Venue 162",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 162 in San Francisco",
+      "price": 50,
+      "latitude": 37.701506,
+      "longitude": -122.419741,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Jerry Garcia Memorial Amphitheater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Jerry Garcia Memorial Amphitheater in San Francisco",
+      "price": 50,
+      "latitude": 37.720526,
+      "longitude": -122.41728,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://sfrecpark.org/reservablefacility/jerry-garcia-amphitheater/"
+      }
+    },
+    {
+      "name": "The Emerald City Stage",
+      "type": "indoor",
+      "category": "theater",
+      "description": "The Emerald City Stage in San Francisco",
+      "price": 50,
+      "latitude": 37.809166,
+      "longitude": -122.26048,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "San Francisco Venue 165",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 165 in San Francisco",
+      "price": 50,
+      "latitude": 37.832195,
+      "longitude": -122.283339,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Esplanade Main Stage",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Outdoor ground level performance stage.",
+      "price": 50,
+      "latitude": 37.784986,
+      "longitude": -122.40238,
+      "accessibility": "wheelchair_friendly",
+      "contact": {
+        "website": "https://www.yerbabuenagardens.com/map/"
+      }
+    },
+    {
+      "name": "San Francisco Venue 167",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 167 in San Francisco",
+      "price": 50,
+      "latitude": 37.788122,
+      "longitude": -122.407549,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Paramount Theater",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Paramount Theater in San Francisco",
+      "price": 50,
+      "latitude": 37.809872,
+      "longitude": -122.268538,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "www.paramounttheatre.com/"
+      },
+      "wikidata": "Q14683611"
+    },
+    {
+      "name": "AMC Bay Street 16",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "AMC Bay Street 16 in San Francisco",
+      "price": 15,
+      "latitude": 37.832899,
+      "longitude": -122.292056,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.amctheatres.com/movie-theatres/oakland/amc-bay-street-16"
+      },
+      "wikidata": "Q44864278"
+    },
+    {
+      "name": "Phyllis Wattis Theater",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Phyllis Wattis Theater in San Francisco",
+      "price": 15,
+      "latitude": 37.786057,
+      "longitude": -122.400538,
+      "accessibility": "not_specified",
+      "contact": {
+        "website": "https://www.sfmoma.org/artists-artworks/film/"
+      },
+      "wikidata": "Q88235658"
+    },
+    {
+      "name": "San Francisco Venue 171",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 171 in San Francisco",
+      "price": 50,
+      "latitude": 37.832344,
+      "longitude": -122.534085,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "San Francisco Venue 172",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 172 in San Francisco",
+      "price": 50,
+      "latitude": 37.766435,
+      "longitude": -122.472123,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 661 1316",
+        "website": "https://www.sfbg.org/event-rental"
+      }
+    },
+    {
+      "name": "San Francisco Venue 173",
+      "type": "indoor",
+      "category": "theater",
+      "description": "San Francisco Venue 173 in San Francisco",
+      "price": 50,
+      "latitude": 37.823418,
+      "longitude": -122.260292,
+      "accessibility": "not_specified"
+    },
+    {
+      "name": "Castro Theatre",
+      "type": "indoor",
+      "category": "cinema",
+      "description": "Castro Theatre in San Francisco",
+      "price": 15,
+      "latitude": 37.762,
+      "longitude": -122.434748,
+      "accessibility": "not_specified",
+      "contact": {
+        "phone": "+1 415 621-6120",
+        "website": "https://www.castrotheatre.com/",
+        "email": "thecastro@anotherplanetent.com"
+      },
+      "wikidata": "Q2941518",
+      "wikimedia_commons": "Category:Castro Theatre (San Francisco)"
+    },
+    {
+      "name": "Founders Amphitheatre",
+      "type": "indoor",
+      "category": "theater",
+      "description": "Founders Amphitheatre in San Francisco",
+      "price": 50,
+      "latitude": 37.7428,
+      "longitude": -122.386269,
+      "accessibility": "not_specified"
+    }
+  ],
+  "New York": {
+    "theater": [
+      {
+        "name": "Broadway Theatre District",
+        "type": "broadway",
+        "price_range": [
+          80,
+          200
+        ],
+        "rating": 4.9
+      },
+      {
+        "name": "Lincoln Center",
+        "type": "performing_arts",
+        "price_range": [
+          60,
+          180
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Comedy Cellar",
+        "type": "comedy",
+        "price_range": [
+          25,
+          45
+        ],
+        "rating": 4.8
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Carnegie Hall",
+        "type": "classical",
+        "capacity": 2804,
+        "price_range": [
+          75,
+          250
+        ]
+      },
+      {
+        "name": "Madison Square Garden",
+        "type": "arena",
+        "capacity": 20000,
+        "price_range": [
+          50,
+          300
+        ]
+      },
+      {
+        "name": "Blue Note Jazz Club",
+        "type": "jazz",
+        "capacity": 200,
+        "price_range": [
+          35,
+          75
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Lincoln Square",
+        "type": "premium",
+        "features": [
+          "IMAX",
+          "Dolby",
+          "reclining"
+        ],
+        "price": 20
+      },
+      {
+        "name": "Alamo Drafthouse Brooklyn",
+        "type": "premium",
+        "features": [
+          "dining"
+        ],
+        "price": 18
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "The Dead Rabbit",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Marquee New York",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$$"
+      }
+    ]
+  },
+  "Boston": {
+    "theater": [
+      {
+        "name": "Boston Opera House",
+        "type": "broadway",
+        "price_range": [
+          55,
+          115
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "American Repertory Theater",
+        "type": "regional",
+        "price_range": [
+          40,
+          85
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "Improv Asylum",
+        "type": "comedy",
+        "price_range": [
+          20,
+          35
+        ],
+        "rating": 4.5
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Symphony Hall",
+        "type": "classical",
+        "capacity": 2625,
+        "price_range": [
+          50,
+          145
+        ]
+      },
+      {
+        "name": "House of Blues",
+        "type": "live_music",
+        "capacity": 2200,
+        "price_range": [
+          25,
+          55
+        ]
+      },
+      {
+        "name": "Paradise Rock Club",
+        "type": "rock_club",
+        "capacity": 933,
+        "price_range": [
+          20,
+          40
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Boston Common",
+        "type": "mainstream",
+        "features": [
+          "IMAX",
+          "Dolby"
+        ],
+        "price": 15
+      },
+      {
+        "name": "Coolidge Corner Theatre",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 13
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Drink",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Royale",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "Miami": {
+    "theater": [
+      {
+        "name": "Adrienne Arsht Center",
+        "type": "performing_arts",
+        "price_range": [
+          50,
+          120
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Miami Theater Center",
+        "type": "regional",
+        "price_range": [
+          35,
+          70
+        ],
+        "rating": 4.4
+      },
+      {
+        "name": "Miami Improv",
+        "type": "comedy",
+        "price_range": [
+          20,
+          40
+        ],
+        "rating": 4.3
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "FTX Arena",
+        "type": "arena",
+        "capacity": 19600,
+        "price_range": [
+          40,
+          250
+        ]
+      },
+      {
+        "name": "Ball & Chain",
+        "type": "latin_music",
+        "capacity": 500,
+        "price_range": [
+          15,
+          35
+        ]
+      },
+      {
+        "name": "Gramps",
+        "type": "live_music",
+        "capacity": 300,
+        "price_range": [
+          10,
+          25
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Aventura",
+        "type": "premium",
+        "features": [
+          "IMAX",
+          "reclining"
+        ],
+        "price": 17
+      },
+      {
+        "name": "O Cinema",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 12
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Broken Shaker",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "LIV",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$$"
+      }
+    ]
+  },
+  "Washington DC": {
+    "theater": [
+      {
+        "name": "Kennedy Center",
+        "type": "performing_arts",
+        "price_range": [
+          55,
+          150
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Ford's Theatre",
+        "type": "historic",
+        "price_range": [
+          40,
+          85
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "DC Improv",
+        "type": "comedy",
+        "price_range": [
+          20,
+          35
+        ],
+        "rating": 4.5
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "The Anthem",
+        "type": "live_music",
+        "capacity": 6000,
+        "price_range": [
+          30,
+          80
+        ]
+      },
+      {
+        "name": "9:30 Club",
+        "type": "rock_club",
+        "capacity": 1200,
+        "price_range": [
+          25,
+          50
+        ]
+      },
+      {
+        "name": "Blues Alley",
+        "type": "jazz",
+        "capacity": 180,
+        "price_range": [
+          30,
+          60
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Georgetown",
+        "type": "mainstream",
+        "features": [
+          "IMAX",
+          "Dolby"
+        ],
+        "price": 16
+      },
+      {
+        "name": "Landmark E Street Cinema",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 14
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Columbia Room",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$$"
+      },
+      {
+        "name": "Echostage",
+        "type": "club",
+        "age_restriction": "18+",
+        "price_level": "$$$"
+      }
+    ]
+  },
+  "Los Angeles": {
+    "theater": [
+      {
+        "name": "Pantages Theatre",
+        "type": "broadway",
+        "price_range": [
+          70,
+          140
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Geffen Playhouse",
+        "type": "regional",
+        "price_range": [
+          45,
+          95
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "The Comedy Store",
+        "type": "comedy",
+        "price_range": [
+          20,
+          40
+        ],
+        "rating": 4.7
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Hollywood Bowl",
+        "type": "outdoor_amphitheater",
+        "capacity": 17500,
+        "price_range": [
+          10,
+          150
+        ]
+      },
+      {
+        "name": "The Troubadour",
+        "type": "live_music",
+        "capacity": 500,
+        "price_range": [
+          25,
+          50
+        ]
+      },
+      {
+        "name": "Whisky a Go Go",
+        "type": "rock_club",
+        "capacity": 500,
+        "price_range": [
+          20,
+          45
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "TCL Chinese Theatre",
+        "type": "premium",
+        "features": [
+          "IMAX"
+        ],
+        "price": 20
+      },
+      {
+        "name": "ArcLight Hollywood",
+        "type": "premium",
+        "features": [
+          "reserved_seating"
+        ],
+        "price": 18
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "The Varnish",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Exchange LA",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      }
+    ]
+  },
+  "San Diego": {
+    "theater": [
+      {
+        "name": "Old Globe Theatre",
+        "type": "regional",
+        "price_range": [
+          40,
+          90
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "La Jolla Playhouse",
+        "type": "regional",
+        "price_range": [
+          45,
+          95
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "The Comedy Store La Jolla",
+        "type": "comedy",
+        "price_range": [
+          20,
+          35
+        ],
+        "rating": 4.4
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "The Observatory North Park",
+        "type": "live_music",
+        "capacity": 1100,
+        "price_range": [
+          25,
+          50
+        ]
+      },
+      {
+        "name": "Humphreys by the Bay",
+        "type": "outdoor_venue",
+        "capacity": 1400,
+        "price_range": [
+          35,
+          75
+        ]
+      },
+      {
+        "name": "Casbah",
+        "type": "rock_club",
+        "capacity": 200,
+        "price_range": [
+          15,
+          30
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Fashion Valley",
+        "type": "mainstream",
+        "features": [
+          "IMAX",
+          "Dolby"
+        ],
+        "price": 16
+      },
+      {
+        "name": "Arclight La Jolla",
+        "type": "premium",
+        "features": [
+          "reserved_seating"
+        ],
+        "price": 17
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Noble Experiment",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "OMNIA San Diego",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      }
+    ]
+  },
+  "Las Vegas": {
+    "theater": [
+      {
+        "name": "Cirque du Soleil O",
+        "type": "show",
+        "price_range": [
+          110,
+          250
+        ],
+        "rating": 4.9
+      },
+      {
+        "name": "Blue Man Group",
+        "type": "show",
+        "price_range": [
+          75,
+          150
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Carrot Top",
+        "type": "comedy",
+        "price_range": [
+          50,
+          90
+        ],
+        "rating": 4.3
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "T-Mobile Arena",
+        "type": "arena",
+        "capacity": 20000,
+        "price_range": [
+          50,
+          300
+        ]
+      },
+      {
+        "name": "House of Blues Mandalay Bay",
+        "type": "live_music",
+        "capacity": 1800,
+        "price_range": [
+          30,
+          70
+        ]
+      },
+      {
+        "name": "Brooklyn Bowl",
+        "type": "bowling_venue",
+        "capacity": 2000,
+        "price_range": [
+          25,
+          55
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "Brenden Theatres Palms",
+        "type": "mainstream",
+        "features": [
+          "IMAX"
+        ],
+        "price": 15
+      },
+      {
+        "name": "Galaxy Theatres Boulevard",
+        "type": "luxury",
+        "features": [
+          "reclining",
+          "dining"
+        ],
+        "price": 18
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "XS Nightclub",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$$"
+      },
+      {
+        "name": "Omnia Nightclub",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$$"
+      }
+    ]
+  },
+  "Chicago": {
+    "theater": [
+      {
+        "name": "Chicago Theatre",
+        "type": "historic",
+        "price_range": [
+          50,
+          130
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Steppenwolf Theatre",
+        "type": "regional",
+        "price_range": [
+          40,
+          85
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Second City",
+        "type": "comedy",
+        "price_range": [
+          25,
+          45
+        ],
+        "rating": 4.8
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Chicago Symphony Center",
+        "type": "classical",
+        "capacity": 2522,
+        "price_range": [
+          50,
+          155
+        ]
+      },
+      {
+        "name": "Metro",
+        "type": "live_music",
+        "capacity": 1100,
+        "price_range": [
+          25,
+          50
+        ]
+      },
+      {
+        "name": "Kingston Mines",
+        "type": "blues_club",
+        "capacity": 500,
+        "price_range": [
+          15,
+          30
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC River East 21",
+        "type": "mainstream",
+        "features": [
+          "IMAX",
+          "Dolby"
+        ],
+        "price": 15
+      },
+      {
+        "name": "Music Box Theatre",
+        "type": "art_house",
+        "features": [
+          "indie_films",
+          "classic"
+        ],
+        "price": 12
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "The Violet Hour",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "PRYSM Nightclub",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      }
+    ]
+  },
+  "Denver": {
+    "theater": [
+      {
+        "name": "Denver Center for Performing Arts",
+        "type": "performing_arts",
+        "price_range": [
+          45,
+          110
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "Denver Civic Theatre",
+        "type": "regional",
+        "price_range": [
+          30,
+          65
+        ],
+        "rating": 4.4
+      },
+      {
+        "name": "Comedy Works",
+        "type": "comedy",
+        "price_range": [
+          18,
+          30
+        ],
+        "rating": 4.6
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Red Rocks Amphitheatre",
+        "type": "outdoor_amphitheater",
+        "capacity": 9525,
+        "price_range": [
+          40,
+          120
+        ]
+      },
+      {
+        "name": "Bluebird Theater",
+        "type": "live_music",
+        "capacity": 550,
+        "price_range": [
+          20,
+          40
+        ]
+      },
+      {
+        "name": "Cervantes' Masterpiece Ballroom",
+        "type": "rock_club",
+        "capacity": 900,
+        "price_range": [
+          20,
+          45
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "AMC Cherry Creek",
+        "type": "mainstream",
+        "features": [
+          "IMAX",
+          "Dolby"
+        ],
+        "price": 14
+      },
+      {
+        "name": "Alamo Drafthouse Denver",
+        "type": "premium",
+        "features": [
+          "dining"
+        ],
+        "price": 16
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Williams & Graham",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Beta Nightclub",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "Austin": {
+    "theater": [
+      {
+        "name": "The Paramount Theatre",
+        "type": "historic",
+        "price_range": [
+          35,
+          80
+        ],
+        "rating": 4.6
+      },
+      {
+        "name": "Zach Theatre",
+        "type": "regional",
+        "price_range": [
+          35,
+          75
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Esther's Follies",
+        "type": "comedy",
+        "price_range": [
+          20,
+          30
+        ],
+        "rating": 4.7
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Moody Center",
+        "type": "arena",
+        "capacity": 15000,
+        "price_range": [
+          40,
+          200
+        ]
+      },
+      {
+        "name": "Stubb's BBQ",
+        "type": "outdoor_venue",
+        "capacity": 2200,
+        "price_range": [
+          20,
+          50
+        ]
+      },
+      {
+        "name": "Continental Club",
+        "type": "live_music",
+        "capacity": 250,
+        "price_range": [
+          10,
+          25
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "Alamo Drafthouse South Lamar",
+        "type": "premium",
+        "features": [
+          "dining",
+          "events"
+        ],
+        "price": 16
+      },
+      {
+        "name": "AMC Barton Creek",
+        "type": "mainstream",
+        "features": [
+          "IMAX"
+        ],
+        "price": 14
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Midnight Cowboy",
+        "type": "bar",
+        "age_restriction": "21+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Barbarella",
+        "type": "club",
+        "age_restriction": "21+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "London": {
+    "theater": [
+      {
+        "name": "West End Theatre District",
+        "type": "west_end",
+        "price_range": [
+          60,
+          150
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "National Theatre",
+        "type": "national",
+        "price_range": [
+          20,
+          80
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "The Comedy Store London",
+        "type": "comedy",
+        "price_range": [
+          18,
+          30
+        ],
+        "rating": 4.6
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Royal Albert Hall",
+        "type": "classical",
+        "capacity": 5272,
+        "price_range": [
+          40,
+          180
+        ]
+      },
+      {
+        "name": "O2 Arena",
+        "type": "arena",
+        "capacity": 20000,
+        "price_range": [
+          45,
+          250
+        ]
+      },
+      {
+        "name": "Ronnie Scott's",
+        "type": "jazz",
+        "capacity": 250,
+        "price_range": [
+          30,
+          65
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "BFI IMAX",
+        "type": "premium",
+        "features": [
+          "IMAX"
+        ],
+        "price": 20
+      },
+      {
+        "name": "Curzon Mayfair",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 16
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Nightjar",
+        "type": "bar",
+        "age_restriction": "18+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Fabric",
+        "type": "club",
+        "age_restriction": "18+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "Paris": {
+    "theater": [
+      {
+        "name": "Palais Garnier",
+        "type": "opera",
+        "price_range": [
+          70,
+          200
+        ],
+        "rating": 4.9
+      },
+      {
+        "name": "Com\u00e9die-Fran\u00e7aise",
+        "type": "national",
+        "price_range": [
+          25,
+          75
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "Le Comedy Club",
+        "type": "comedy",
+        "price_range": [
+          20,
+          35
+        ],
+        "rating": 4.4
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Philharmonie de Paris",
+        "type": "classical",
+        "capacity": 2400,
+        "price_range": [
+          45,
+          160
+        ]
+      },
+      {
+        "name": "Olympia",
+        "type": "live_music",
+        "capacity": 2000,
+        "price_range": [
+          35,
+          80
+        ]
+      },
+      {
+        "name": "New Morning",
+        "type": "jazz",
+        "capacity": 300,
+        "price_range": [
+          25,
+          50
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "Grand Rex",
+        "type": "historic",
+        "features": [
+          "grand_screen"
+        ],
+        "price": 14
+      },
+      {
+        "name": "MK2 Biblioth\u00e8que",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 12
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Harry's New York Bar",
+        "type": "bar",
+        "age_restriction": "18+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "Rex Club",
+        "type": "club",
+        "age_restriction": "18+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "Tokyo": {
+    "theater": [
+      {
+        "name": "Kabukiza Theatre",
+        "type": "traditional",
+        "price_range": [
+          30,
+          120
+        ],
+        "rating": 4.8
+      },
+      {
+        "name": "Tokyo Dome City Hall",
+        "type": "modern",
+        "price_range": [
+          40,
+          100
+        ],
+        "rating": 4.5
+      },
+      {
+        "name": "Lumine the Yoshimoto",
+        "type": "comedy",
+        "price_range": [
+          25,
+          45
+        ],
+        "rating": 4.6
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Suntory Hall",
+        "type": "classical",
+        "capacity": 2006,
+        "price_range": [
+          50,
+          170
+        ]
+      },
+      {
+        "name": "Tokyo Dome",
+        "type": "arena",
+        "capacity": 55000,
+        "price_range": [
+          60,
+          300
+        ]
+      },
+      {
+        "name": "Blue Note Tokyo",
+        "type": "jazz",
+        "capacity": 300,
+        "price_range": [
+          40,
+          80
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "Toho Cinemas Roppongi Hills",
+        "type": "premium",
+        "features": [
+          "IMAX",
+          "luxury"
+        ],
+        "price": 22
+      },
+      {
+        "name": "Shinjuku Piccadilly",
+        "type": "mainstream",
+        "features": [
+          "standard"
+        ],
+        "price": 18
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Bar High Five",
+        "type": "bar",
+        "age_restriction": "20+",
+        "price_level": "$$$"
+      },
+      {
+        "name": "WOMB",
+        "type": "club",
+        "age_restriction": "20+",
+        "price_level": "$$"
+      }
+    ]
+  },
+  "Sydney": {
+    "theater": [
+      {
+        "name": "Sydney Opera House",
+        "type": "performing_arts",
+        "price_range": [
+          70,
+          190
+        ],
+        "rating": 4.9
+      },
+      {
+        "name": "Capitol Theatre",
+        "type": "broadway",
+        "price_range": [
+          60,
+          140
+        ],
+        "rating": 4.7
+      },
+      {
+        "name": "The Comedy Store Sydney",
+        "type": "comedy",
+        "price_range": [
+          20,
+          35
+        ],
+        "rating": 4.5
+      }
+    ],
+    "music_venues": [
+      {
+        "name": "Sydney Symphony Orchestra",
+        "type": "classical",
+        "capacity": 2679,
+        "price_range": [
+          50,
+          160
+        ]
+      },
+      {
+        "name": "Enmore Theatre",
+        "type": "live_music",
+        "capacity": 2500,
+        "price_range": [
+          30,
+          70
+        ]
+      },
+      {
+        "name": "Metro Theatre",
+        "type": "rock_club",
+        "capacity": 2000,
+        "price_range": [
+          25,
+          55
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "name": "IMAX Darling Harbour",
+        "type": "premium",
+        "features": [
+          "IMAX"
+        ],
+        "price": 24
+      },
+      {
+        "name": "Dendy Opera Quays",
+        "type": "art_house",
+        "features": [
+          "indie_films"
+        ],
+        "price": 20
+      }
+    ],
+    "nightlife": [
+      {
+        "name": "Baxter Inn",
+        "type": "bar",
+        "age_restriction": "18+",
+        "price_level": "$$"
+      },
+      {
+        "name": "Home The Venue",
+        "type": "club",
+        "age_restriction": "18+",
+        "price_level": "$$"
+      }
+    ]
+  }
+}

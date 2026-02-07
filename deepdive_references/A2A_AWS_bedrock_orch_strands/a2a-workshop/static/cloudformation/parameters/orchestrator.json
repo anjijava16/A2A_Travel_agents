@@ -1,0 +1,34 @@
+[
+  {
+    "ParameterKey": "ProjectName",
+    "ParameterValue": "a2a"
+  },
+  {
+    "ParameterKey": "Environment",
+    "ParameterValue": "workshop"
+  },
+  {
+    "ParameterKey": "OrchestratorPort",
+    "ParameterValue": "8000"
+  },
+  {
+    "ParameterKey": "ContainerImage",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "ContainerCpu",
+    "ParameterValue": "1024"
+  },
+  {
+    "ParameterKey": "ContainerMemory",
+    "ParameterValue": "2048"
+  },
+  {
+    "ParameterKey": "DesiredCount",
+    "ParameterValue": "1"
+  },
+  {
+    "ParameterKey": "LogLevel",
+    "ParameterValue": "INFO"
+  }
+]

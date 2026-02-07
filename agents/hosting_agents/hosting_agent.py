@@ -162,8 +162,10 @@ async def main() -> None:
         """Test the sub-agent delegation"""
         test_cases = [
             {
-                "query": "I have Blue Cross insurance policy ID BC123. I have sharp lower abdominal pain. Can you find me a gastroenterologist?",
+                "query": "I have abdominal pain and Blue Cross insurance — what’s covered and who should I see nearby?",
                 "expected_agents": ["Policy Agent", "Research Agent", "Provider Agent"],
+                # "query": "I have Blue Cross insurance policy ID BC123. I have sharp lower abdominal pain. Can you find me a gastroenterologist?",
+                # "expected_agents": ["Policy Agent", "Research Agent", "Provider Agent"],
             }
             # ,
             # {

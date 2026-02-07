@@ -1,0 +1,400 @@
+/* Workshop PDF Stylesheet */
+
+/* ============================================
+   Page Setup
+   ============================================ */
+
+@page {
+    size: letter;
+    margin: 1in 0.75in 1in 0.75in;
+
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        font-size: 10pt;
+        color: #666;
+    }
+}
+
+@page :first {
+    @bottom-center {
+        content: none;
+    }
+}
+
+/* ============================================
+   Base Typography
+   ============================================ */
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #232f3e;  /* AWS dark blue */
+    page-break-after: avoid;
+}
+
+h1 {
+    font-size: 24pt;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid #ff9900;  /* AWS orange */
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 18pt;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    font-size: 14pt;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
+}
+
+h4 {
+    font-size: 12pt;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+p {
+    margin: 0.5em 0;
+    orphans: 3;
+    widows: 3;
+}
+
+/* ============================================
+   Cover Page
+   ============================================ */
+
+.cover-page {
+    page-break-after: always;
+    text-align: center;
+    padding-top: 3in;
+}
+
+.cover-page h1 {
+    font-size: 32pt;
+    color: #232f3e;
+    border: none;
+    margin-bottom: 0.5em;
+}
+
+.cover-page .subtitle {
+    font-size: 18pt;
+    color: #666;
+    margin-top: 1em;
+}
+
+.cover-page .version {
+    font-size: 12pt;
+    color: #999;
+    margin-top: 2em;
+}
+
+/* ============================================
+   Table of Contents
+   ============================================ */
+
+.toc {
+    page-break-after: always;
+}
+
+.toc h2 {
+    font-size: 20pt;
+    color: #232f3e;
+    margin-bottom: 1em;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toc li {
+    margin: 0.3em 0;
+    padding-left: 1em;
+}
+
+.toc li.toc-chapter {
+    font-weight: bold;
+    margin-top: 0.8em;
+    padding-left: 0;
+}
+
+.toc li.toc-section {
+    padding-left: 2em;
+    font-weight: normal;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #0073bb;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   Chapters and Sections
+   ============================================ */
+
+.chapter {
+    page-break-before: always;
+}
+
+.section {
+    margin-top: 1.5em;
+}
+
+/* ============================================
+   Alert Boxes
+   ============================================ */
+
+.alert {
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+    page-break-inside: avoid;
+    border-left: 4px solid;
+}
+
+.alert-success {
+    background-color: #e6f4ea;
+    border-left-color: #34a853;
+}
+
+.alert-info {
+    background-color: #e8f4fd;
+    border-left-color: #4285f4;
+}
+
+.alert-warning {
+    background-color: #fef7e0;
+    border-left-color: #fbbc04;
+}
+
+.alert-header {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    font-size: 12pt;
+}
+
+.alert-content {
+    margin: 0;
+}
+
+/* ============================================
+   Code Blocks
+   ============================================ */
+
+pre {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+    padding: 1em;
+    overflow-x: auto;
+    font-size: 9pt;
+    page-break-inside: avoid;
+    margin: 1em 0;
+}
+
+code {
+    font-family: 'Courier New', 'Consolas', 'Monaco', monospace;
+    font-size: 9pt;
+}
+
+/* Inline code */
+p code, li code {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 3px;
+    padding: 0.2em 0.4em;
+    font-size: 9pt;
+}
+
+/* Code snippets (inline commands) */
+.code-snippet {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    margin: 0.5em 0;
+}
+
+.code-snippet code {
+    color: #d4d4d4;
+}
+
+/* ============================================
+   Images and Figures
+   ============================================ */
+
+figure, .image-figure {
+    text-align: center;
+    margin: 1.5em 0;
+    page-break-inside: avoid;
+}
+
+figure img, .image-figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5em;
+    font-size: 10pt;
+}
+
+.mermaid-diagram {
+    max-width: 100%;
+    display: block;
+    margin: 1em auto;
+}
+
+.mermaid-fallback {
+    border: 1px dashed #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #f9f9f9;
+}
+
+.mermaid-fallback p {
+    margin-top: 0;
+}
+
+/* ============================================
+   Tables
+   ============================================ */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 10pt;
+    page-break-inside: avoid;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #232f3e;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* ============================================
+   Links
+   ============================================ */
+
+a {
+    color: #0073bb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Internal links for TOC */
+a[href^="#"] {
+    color: #0073bb;
+}
+
+/* ============================================
+   Lists
+   ============================================ */
+
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+}
+
+li {
+    margin: 0.3em 0;
+    orphans: 2;
+    widows: 2;
+}
+
+/* ============================================
+   Blockquotes
+   ============================================ */
+
+blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 1em;
+    margin: 1em 0;
+    color: #666;
+    font-style: italic;
+}
+
+/* ============================================
+   Horizontal Rules
+   ============================================ */
+
+hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin: 2em 0;
+}
+
+/* ============================================
+   Print Optimizations
+   ============================================ */
+
+/* Prevent orphans and widows */
+p, li, blockquote {
+    orphans: 3;
+    widows: 3;
+}
+
+/* Keep headings with following content */
+h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+}
+
+/* Avoid breaks inside certain elements */
+pre, table, figure, .alert, .image-figure {
+    page-break-inside: avoid;
+}
+
+/* Force page breaks before chapters */
+.chapter {
+    page-break-before: always;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+
+.page-break {
+    page-break-before: always;
+}
+
+.no-break {
+    page-break-inside: avoid;
+}

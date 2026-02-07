@@ -1,0 +1,28 @@
+{
+  "simple_query": {
+    "example": "What's the weather in Seattle?",
+    "pattern": "sequential",
+    "agents": [
+      "weather-agent"
+    ]
+  },
+  "weather_dependent_planning": {
+    "example": "Plan activities for Seattle this weekend",
+    "pattern": "conditional",
+    "agents": [
+      "weather-agent",
+      "events-agent"
+    ]
+  },
+  "comprehensive_trip": {
+    "example": "Plan a 3-day trip to New York with $1000 budget",
+    "pattern": "map_reduce",
+    "agents": [
+      "budget-agent",
+      "weather-agent",
+      "events-agent",
+      "restaurant-agent",
+      "accommodation-agent"
+    ]
+  }
+}

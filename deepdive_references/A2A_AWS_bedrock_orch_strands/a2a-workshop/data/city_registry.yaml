@@ -1,0 +1,114 @@
+cities:
+  Seattle:
+    tier: 3
+    status: automated
+    last_updated: '2025-11-06T23:56:38.760031'
+    data:
+      restaurants: 1819
+      events: 2597
+      accommodations: 132
+      entertainment: 118
+      outdoor: 1470
+      shopping: 203
+  Portland:
+    tier: 3
+    status: automated
+    last_updated: '2025-11-06T23:57:46.591740'
+    data:
+      restaurants: 1778
+      events: 2408
+      accommodations: 146
+      entertainment: 127
+      outdoor: 1447
+      shopping: 230
+  San Francisco:
+    tier: 3
+    status: automated
+    last_updated: '2025-11-06T23:58:43.344038'
+    data:
+      restaurants: 2419
+      events: 4370
+      accommodations: 315
+      entertainment: 175
+      outdoor: 2434
+      shopping: 261
+  Las Vegas:
+    tier: 3
+    status: automated
+    last_updated: '2025-11-02T16:06:08.448909'
+    data:
+      restaurants: 955
+      events: 1694
+      accommodations: 224
+  Austin:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:41:36.972098'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  Denver:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:41:57.765540'
+    data:
+      restaurants: 20
+      events: 0
+      accommodations: 15
+  Miami:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:42:11.969585'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 0
+  Bellevue:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:42:47.574174'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  Redmond:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:42:57.154856'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  New York:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:41:45.065738'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  Chicago:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:42:04.997700'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  Boston:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:42:21.804179'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15
+  Los Angeles:
+    tier: 2
+    status: enhanced
+    last_updated: '2025-10-30T22:43:55.788129'
+    data:
+      restaurants: 20
+      events: 20
+      accommodations: 15

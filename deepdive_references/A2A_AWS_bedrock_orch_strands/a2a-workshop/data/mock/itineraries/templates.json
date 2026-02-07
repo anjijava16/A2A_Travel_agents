@@ -1,0 +1,178 @@
+{
+  "romantic_weekend": {
+    "duration_days": 2,
+    "theme": "romantic",
+    "budget_range": [
+      400,
+      800
+    ],
+    "activities": [
+      {
+        "time": "morning",
+        "type": "breakfast",
+        "category": "dining",
+        "duration": "1 hour"
+      },
+      {
+        "time": "morning",
+        "type": "scenic_walk",
+        "category": "outdoor",
+        "duration": "2 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "museum_visit",
+        "category": "culture",
+        "duration": "2.5 hours"
+      },
+      {
+        "time": "evening",
+        "type": "fine_dining",
+        "category": "dining",
+        "duration": "2 hours"
+      },
+      {
+        "time": "evening",
+        "type": "theater_show",
+        "category": "entertainment",
+        "duration": "2.5 hours"
+      }
+    ]
+  },
+  "family_adventure": {
+    "duration_days": 3,
+    "theme": "family",
+    "budget_range": [
+      600,
+      1200
+    ],
+    "activities": [
+      {
+        "time": "morning",
+        "type": "aquarium",
+        "category": "attraction",
+        "duration": "2.5 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "park_visit",
+        "category": "outdoor",
+        "duration": "2 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "family_restaurant",
+        "category": "dining",
+        "duration": "1 hour"
+      },
+      {
+        "time": "evening",
+        "type": "movie",
+        "category": "entertainment",
+        "duration": "2.5 hours"
+      }
+    ]
+  },
+  "budget_explorer": {
+    "duration_days": 3,
+    "theme": "budget",
+    "budget_range": [
+      150,
+      300
+    ],
+    "activities": [
+      {
+        "time": "morning",
+        "type": "free_walking_tour",
+        "category": "tour",
+        "duration": "2 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "public_park",
+        "category": "outdoor",
+        "duration": "2 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "street_food",
+        "category": "dining",
+        "duration": "1 hour"
+      },
+      {
+        "time": "evening",
+        "type": "free_concert",
+        "category": "entertainment",
+        "duration": "2 hours"
+      }
+    ]
+  },
+  "cultural_immersion": {
+    "duration_days": 5,
+    "theme": "culture",
+    "budget_range": [
+      800,
+      1600
+    ],
+    "activities": [
+      {
+        "time": "morning",
+        "type": "history_museum",
+        "category": "museum",
+        "duration": "3 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "art_gallery",
+        "category": "museum",
+        "duration": "2 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "local_cuisine",
+        "category": "dining",
+        "duration": "1.5 hours"
+      },
+      {
+        "time": "evening",
+        "type": "cultural_performance",
+        "category": "entertainment",
+        "duration": "2.5 hours"
+      }
+    ]
+  },
+  "adventure_seeker": {
+    "duration_days": 4,
+    "theme": "adventure",
+    "budget_range": [
+      700,
+      1400
+    ],
+    "activities": [
+      {
+        "time": "morning",
+        "type": "hiking",
+        "category": "outdoor",
+        "duration": "4 hours"
+      },
+      {
+        "time": "afternoon",
+        "type": "water_sports",
+        "category": "outdoor",
+        "duration": "3 hours"
+      },
+      {
+        "time": "evening",
+        "type": "casual_dining",
+        "category": "dining",
+        "duration": "1.5 hours"
+      },
+      {
+        "time": "evening",
+        "type": "live_music",
+        "category": "entertainment",
+        "duration": "2 hours"
+      }
+    ]
+  }
+}

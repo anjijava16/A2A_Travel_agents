@@ -50,7 +50,7 @@ def main() -> None:
         version="1.0.0",
         default_input_modes=["text"],
         default_output_modes=["text"],
-        capabilities=AgentCapabilities(streaming=False),
+        capabilities=AgentCapabilities(streaming=True),
         skills=[
             AgentSkill(
                 id="find_healthcare_providers",

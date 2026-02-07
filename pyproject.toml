@@ -20,7 +20,8 @@ dependencies = [
     "ipython",
     "langgraph-a2a-server>=0.1.6",
     "boto3",
-    "botocore"
+    "botocore",
+    "duckduckgo-search"
 
 ]
 
