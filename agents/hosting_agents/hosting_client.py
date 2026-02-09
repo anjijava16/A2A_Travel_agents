@@ -18,7 +18,9 @@ async def test_a2a_agent(agent_url: str, query: str):
                 agent_card = response.json()
                 print(f"✅ Agent card loaded:")
                 print(f"   Name: {agent_card.get('name')}")
-                print(f"   Description: {agent_card.get('description')}")
+                print(f" Agent_card info : {json.dumps(agent_card, indent=4)}")
+                print("===============DONE ============================")
+                #print(f"   Description: {agent_card.get('description')}")
             else:
                 print(f"❌ Failed to get agent card: {response.status_code}")
                 return
